@@ -1,0 +1,73 @@
+#VRML V2.0 utf8
+
+PROTO pizarra
+	[
+		field	SFColor	colorBorde 0.5 .2 0
+		field	SFColor	colorPizarra 1 1 1
+	]
+	{
+		Group{
+			children [
+				# defecto esta en el 0 0 0
+				Shape{
+					geometry Box {size 4.87 1.27 0.01}
+					appearance Appearance {
+						material Material {diffuseColor IS colorPizarra}
+					}
+				
+				}
+				Transform {
+					translation	0 0.65 0
+					children Shape{
+						geometry Box {size 4.87 0.03 0.03}
+						appearance Appearance {
+							material Material {diffuseColor IS colorBorde}
+						}
+					
+					}
+				
+				}
+
+
+				Transform {
+					translation	0 -0.65 0
+					children Shape{
+						geometry Box {size 4.87 0.03 0.03}
+						appearance Appearance {
+							material Material {diffuseColor IS colorBorde}
+						}
+					
+					}
+				
+				}
+
+				Transform {
+					translation	2.45 0 0
+					children Shape{
+						geometry Box {size 0.03 1.33 0.03}   # +6 cm debido al borde de arriba y abajo (3cm c/u)
+						appearance Appearance {
+							material Material {diffuseColor IS colorBorde}
+						}
+					
+					}
+				
+				}
+
+
+				Transform {
+					translation	-2.45 0 0
+					children Shape{
+						geometry Box {size 0.03 1.33 0.03}
+						appearance Appearance {
+							material Material {diffuseColor IS colorBorde}
+						}
+					
+					}
+				
+				}
+
+			]
+		}
+	
+	}
+pizarra {}

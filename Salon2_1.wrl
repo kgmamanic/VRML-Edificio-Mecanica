@@ -1,0 +1,158 @@
+#VRML V2.0 utf8
+
+DEF	colorPared Appearance{
+	texture	ImageTexture {
+		url	"pared.jpg"
+	}
+}
+
+PROTO Columna[				   #334
+	field SFVec3f dimension 0.41 4.16 0.41
+]{
+	Transform {
+		children [
+			Shape {
+				geometry Box {
+					size IS	dimension
+				    
+				}
+				appearance	Appearance {
+					material Material {
+						
+					}
+				}
+			}
+		]
+	}
+}
+											
+PROTO Salon21[]
+{
+	Group {
+		children [
+			#DEF	colorPared Appearance{
+			#	material Material {
+			#		diffuseColor 0.59 0.27 0.08
+			#	}
+			#}
+			#Columna	{}
+			#columnas del centro
+			#techo y piso
+			#techo 
+			Transform {
+				translation	0 2.065 0
+				children Shape {
+					geometry Box {
+						size 8.77 0.03 10.49
+					}
+					appearance Appearance {
+						material Material {}
+					}
+				}
+			
+			}
+
+			#piso
+			Transform {
+				translation	0 -1.875 0
+				children Shape {
+					geometry Box {
+						size 8.77 0.41 10.49
+					}
+					appearance Appearance {
+						material Material {}
+					}
+				}
+			
+			}
+			Transform {
+				translation	4.185 0 0
+				children Columna {}
+			}
+			Transform {
+				translation	-4.185 0 0
+				children Columna {}
+			}
+			#columnas de adelante
+
+			Transform {
+				translation	-4.185 0 5.04
+				children Columna {}
+			}
+			Transform {
+				translation	4.185 0 5.04
+				children Columna {}
+			}
+			Transform {
+				translation	1.765 0 5.04
+				children Columna {}
+			}
+
+			#columnas de atras
+			Transform {
+				translation	-4.185 0 -5.04
+				children Columna {}
+			}
+			Transform {
+				translation	4.185 0 -5.04
+				children Columna {}
+			}
+			Transform {
+				translation	1.765 0 -5.04
+				children Columna {}
+			}
+
+			#columnas cercanas al techo (horizontales) 
+			#izquierda
+			Transform {
+				translation	-4.25 1.86 0
+				children Columna {dimension 0.26 0.38 10.49}
+			}
+			Transform {
+				translation	4.25 1.86 0
+				children Columna {dimension 0.26 0.38 10.49}
+			}
+
+			#Pared atras
+			#Transform {
+			#	translation	2.97 0 -5.07
+			#	children Shape {
+			#		geometry Box {
+			#			size 2 3.34 0.35
+			#		}
+			#		appearance USE colorPared
+			#	}
+			#}
+			#Transform {
+			#	translation	-1.18 0 -5.07
+			#	children Shape {
+			#		geometry Box {
+			#			size 5.55 3.34 0.35
+			#		}
+			#		appearance USE colorPared
+			#	}
+			#}
+			#pared Adelante
+			#Transform {
+			#	translation	2.97 0 5.07
+			#	children Shape {
+			#		geometry Box {
+			#			size 2 3.34 0.35
+			#		}
+			#		appearance USE colorPared
+			#	}
+			#}
+			#Transform {
+			#	translation	-1.18 0 5.07
+			#	children Shape {
+			#		geometry Box {
+			#			size 5.55 3.34 0.35
+			#		}
+			#		appearance USE colorPared
+			#	}
+			#}
+		]
+	}
+}
+
+Salon21	{}

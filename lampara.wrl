@@ -1,0 +1,84 @@
+#VRML V2.0 utf8
+
+
+##longitud tubo fluorescente T5  -> 1200 mm
+
+
+PROTO lampara[
+	field	SFColor	colorTubo 1 1 1
+	field	SFColor	colorPlastico .5 .54 .53
+]
+
+
+{
+	Group {
+		children [
+
+			Transform {
+				translation	0 0 0
+				children Shape {
+				geometry Cylinder {height 1200 radius 3.8}
+				appearance Appearance {
+					material Material {diffuseColor IS colorTubo emissiveColor 5 5 5}
+				}
+			
+			}
+			}
+
+			Transform {
+				translation	11.4 0 0					   #3.8*3						
+				children Shape {
+					geometry Cylinder {height 1200 radius 3.8}
+					appearance Appearance {
+						material Material {diffuseColor IS colorTubo emissiveColor 5 5 5}
+					}
+				}
+			
+			}
+
+			Transform{
+				translation	5.7 0 -7.6
+				children Shape {
+					geometry Box {size 18 1220 7.6}
+					appearance Appearance {
+						material Material {diffuseColor IS colorPlastico }
+					}
+				}
+			
+			}
+
+			Transform{
+				translation	5.7 600 0
+				children Shape {
+					geometry Cylinder {height 2.8 radius 9}
+					appearance Appearance {
+						material Material {diffuseColor IS colorPlastico }
+					}
+				}
+			
+			}
+
+			Transform{
+				translation	5.7 -600 0
+				children Shape {
+					geometry Cylinder {height 2.8 radius 9}
+					appearance Appearance {
+						material Material {diffuseColor IS colorPlastico }
+					}
+				}
+			
+			}			
+		
+		]
+	}
+}
+
+
+lampara	{}
+
+Transform {
+	rotation 0 1 0 1.57
+	translation	0 0 0
+
+}
+

@@ -1,0 +1,99 @@
+#VRML V2.0 utf8
+PROTO escalon [
+	field SFColor color 0.5 0.5 0.5
+]
+{
+	Group {
+		children [
+			Shape {
+				geometry Box {
+					size 2.165 0.208 0.3
+				}
+				appearance Appearance {
+					material Material {
+						diffuseColor IS	color
+					}
+				}
+			}
+		]
+	}
+}
+Transform {
+	translation	0 0 0
+	children [
+		Inline { url "Escaleras.wrl"  }
+	]
+}
+Transform {
+	translation	0 4.16 0
+	children [
+		Inline { url "Escaleras.wrl"  }
+	]
+}
+Transform {
+	translation	0 8.112 .6
+	children escalon {}
+}
+Transform {
+	translation	0 8.112 .3
+	children escalon {}
+}
+
+Transform {
+	translation	0 8.32 .0
+	children escalon {}
+}							
+Transform {
+	translation	0 8.528 -.3
+	children escalon {}
+}
+Transform {
+	translation	0 8.736 -.6
+	children escalon {}
+}
+Transform {
+	translation	0 8.944 -.9
+	children escalon {}
+}
+Transform {
+	translation	0 9.152 -1.2
+	children escalon {}
+}
+Transform {
+	translation	0 9.36 -1.5
+	children escalon {}
+}
+Transform {
+	translation	0 9.568 -1.8
+	children escalon {}
+}
+Transform {
+	translation	0 9.776 -2.1
+	children escalon {}
+}
+Transform {
+	translation	0 9.984 -2.4
+	children escalon {}
+}
+Transform {
+	translation	0 10.192 -2.7
+	children escalon {}
+}
+
+Transform {
+	translation	1.23 9.9 -3.1
+	children [
+		Shape {
+			geometry Box {
+				size .25 3.34 .25		   
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.59 0.27 0.08
+				}
+			}
+		}
+	]
+}
+
+

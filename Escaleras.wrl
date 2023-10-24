@@ -1,0 +1,284 @@
+#VRML V2.0 utf8
+
+PROTO escalon [
+	field SFColor color 0.5 0.5 0.5
+]
+{
+	Group {
+		children [
+			Shape {
+				geometry Box {
+					size 2.165 0.208 0.3
+				}
+				appearance Appearance {
+					material Material {
+						diffuseColor IS	color
+					}
+				}
+			}
+		]
+	}
+}
+PROTO Columna[				   
+	field SFVec3f dimension 0.41 4.16 0.41
+]{
+	Transform {
+		children [
+			Shape {
+				geometry Box {
+					size IS	dimension
+				    
+				}
+				appearance	Appearance {
+					material Material {
+						
+					}
+				}
+			}
+		]
+	}
+}
+Transform {
+	translation	0 -.208 .6
+	children escalon {}
+}
+Transform {
+	translation	0 -.208 .3
+	children escalon {}
+}
+Transform {
+	translation	0 0 0
+	children escalon {}
+}
+Transform {
+	translation	0 .208 -.3
+	children escalon {}
+}
+Transform {
+	translation	0 .416 -.6
+	children escalon {}
+}
+Transform {
+	translation	0 .624 -.9
+	children escalon {}
+}
+Transform {
+	translation	0 .832 -1.2
+	children escalon {}
+}
+Transform {
+	translation	0 1.04 -1.5
+	children escalon {}
+}
+Transform {
+	translation	0 1.248 -1.8
+	children escalon {}
+}
+Transform {
+	translation	0 1.456 -2.1
+	children escalon {}
+}
+Transform {
+	translation	0 1.664 -2.4
+	children escalon {}
+}
+Transform {
+	translation	0 1.872 -2.7
+	children escalon {}
+}
+Transform {
+	translation	1.22 1.872 -4.115
+	children [
+		Shape {
+			geometry Box {
+				size 4.6 .208 2.53		
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.5 0.5 0.5
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	1.23 2.005 -1.5
+	children [
+		Shape {
+			geometry Box {
+				size .30 4.16 3.46
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.59 0.27 0.08
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	2.41 1.872 -2.7
+	children escalon {}
+}
+Transform {
+	translation	2.41 2.08 -2.4
+	children escalon {}
+}
+Transform {
+	translation	2.41 2.288 -2.1
+	children escalon {}
+}
+Transform {
+	translation	2.41 2.496 -1.8
+	children escalon {}
+}
+Transform {
+	translation	2.41 2.704 -1.5
+	children escalon {}
+}
+Transform {
+	translation	2.41 2.912 -1.2
+	children escalon {}
+}
+Transform {
+	translation	2.41 3.120 -.9
+	children escalon {}
+}
+Transform {
+	translation	2.41 3.328 -.6
+	children escalon {}
+}
+Transform {
+	translation	2.41 3.536 -.3
+	children escalon {}
+}
+Transform {
+	translation	2.41 3.744 -.0
+	children escalon {}
+}
+Transform {
+	translation	2.41 3.952 .3
+	children escalon {}
+}
+Transform {
+	translation	2.41 3.952 .6
+	children escalon {}
+}
+
+#muro exterior
+Transform {
+	translation	-1.295 2.005 0.45
+	children Columna {}
+}
+Transform {
+	translation	-1.295 2.005 -5.55
+	children Columna {}
+}
+Transform {
+		translation	-1.295 2.005 -6.7 
+		children [
+			Shape {
+			geometry Box {
+				size 0.35 4.16 2
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.59 0.27 0.08
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	-1.295 2.005 -7.9
+	children Columna {}
+}
+Transform {
+		translation	-1.295 2.005 -9.8 
+		children [
+			Shape {
+			geometry Box {
+				size 0.35 4.16 3.4
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.59 0.27 0.08
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	-1.295 2.005 -11.7
+	children Columna {}
+}
+#muro interior
+
+Transform {
+		translation	3.7 2.005 -9.8 
+		children [
+			Shape {
+			geometry Box {
+				size 0.35 4.16 3.4
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.59 0.27 0.08
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	3.7 2.005 -11.7
+	children Columna {}
+}
+#muro que cierra los salones
+Transform {
+		translation	1.22 2.005 -11.7 
+		children [
+			Shape {
+			geometry Box {
+				size 4.6 4.16 0.35
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.59 0.27 0.08
+				}
+			}
+		}
+	]
+}
+#muro que cierra los salones
+Transform {
+		translation	1.22 2.005 -5.6
+		children [
+			Shape {
+			geometry Box {
+				size 4.6 4.16 0.35
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.59 0.27 0.08
+				}
+			}
+		}
+	]
+}
+#piso del salon
+Transform {
+		translation	1.22 1.872 -8.5 
+		children [
+			Shape {
+			geometry Box {
+				size 4.6 0.208 5.80
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 1 0 0
+				}
+			}
+		}
+	]
+}
+

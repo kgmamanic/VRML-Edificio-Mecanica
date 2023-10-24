@@ -1,0 +1,804 @@
+#VRML V2.0 utf8
+DEF	colorPared Appearance{
+	material Material {
+		diffuseColor 0.59 0.27 0.08
+	}
+}
+			#
+#Edificio
+#-------------------------- Primer piso --------------------------
+
+#izquierda
+Transform {
+	translation	0 -1.875 0
+		children Shape {
+			geometry Box {
+				size 4.7 0.41 35.475
+			}
+		appearance Appearance {
+			material Material {}
+		}
+	}		
+}
+
+Transform {
+	translation	-5.43 0 -2.4225
+	children [
+		Inline { url "Salon1.wrl"}
+	]
+}
+Transform {
+	translation	-5.43 0 -12.5025
+	children [
+		Inline { url "Salon1.wrl"}
+	]
+}
+
+#derecha
+Transform {
+	translation	5.525 0 12.6975
+	rotation 0 1 0 3.14
+	children [
+		Inline { url "Salon1_1.wrl"}
+	]
+}
+
+
+#-------------------Segundo Piso --------------------------
+Transform {
+	translation	0 2.27 0
+		children Shape {
+			geometry Box {
+				size 4.7 0.41 35.475
+			}
+		appearance Appearance {
+			material Material {}
+		}
+	}		
+}
+ #salones izquierda
+Transform {
+	translation	-5.43 4.145 -2.4225
+	children [
+		Inline { url "Salon1.wrl"}
+	]
+}
+Transform {
+	translation	-5.43 4.145 -12.5025
+	children [
+		Inline { url "Salon1.wrl"}
+	]
+}
+
+#salones derecha
+Transform {
+	translation	5.53 4.145 12.6975
+	children [
+		Inline {url "salon_esqueleto.wrl"}
+	]
+}
+Transform {
+	translation	6.73 4.145 2.6175
+	children [
+		Inline {url "Salon2_1.wrl"}
+			#frontrales columnas (horzontales superiores)
+		Transform {
+			translation	0 1.86 4.97
+			children Shape {
+				geometry Box {
+					size 7.96 0.38 0.25
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+			#atrascolumnas (horzontales superiores)
+		Transform {
+			translation	0 1.86 -4.96
+			children Shape {
+				geometry Box {
+					size 7.96 0.38 0.25
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		#frente derecha
+
+		Transform {
+			translation	-1.2 0 4.97 
+			children Shape {
+				geometry Box {
+					size 5.55 3.34 0.25
+				}
+				appearance USE colorPared
+			}
+		}
+		#atras
+		Transform {
+			translation	-1.2 0 -4.96 
+			children Shape {
+				geometry Box {
+					size 5.55 3.34 0.25
+				}
+				appearance USE colorPared
+			}
+		}
+		#frente izquierda
+		Transform {
+			translation	2.985 0 4.97 
+			children Shape {
+				geometry Box {
+					size 2 3.34 0.25
+				}
+				appearance USE colorPared
+			}
+		}
+		#atras izquierda
+		Transform {
+			translation	2.985 0 -4.96 
+			children Shape {
+				geometry Box {
+					size 2 3.34 0.25
+				}
+				appearance USE colorPared
+			}
+		}
+
+
+		#######
+		#parte izquierda atras
+
+		Transform{
+			translation -4.25 -0.595 -1.445
+			children Shape{
+				geometry Box{
+					size  0.26 2.15 2.48
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 0.59 -1.27
+			children Shape{
+				geometry Box{
+					size  0.26 0.22 2.335
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 1.185 -2.525
+			children Shape{
+				geometry Box{
+					size  0.26 0.97 4.63
+				}
+				appearance USE colorPared
+			}
+		}
+			#bordes puerta
+		Transform{
+			translation -4.25 -0.595 -2.76
+			children Shape{
+				geometry Box{
+					size  0.26 2.15 0.15
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		Transform{
+			translation -4.25 0.59 -3.585
+			children Shape{
+				geometry Box{
+					size  0.26 0.22 2.5
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		#parte izquierda (z+)
+		Transform{
+			translation -4.25 -0.595 1.945
+			children Shape{
+				geometry Box{
+					size 0.26 2.15 3.48
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 0.59 1.77
+			children Shape{
+				geometry Box{
+					size 0.26 0.22 3.13
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 1.185 2.525
+			children Shape{
+				geometry Box{
+					size 0.26 0.97 4.63
+				}
+				appearance USE colorPared
+			}
+		}
+			#bordes puerta
+		Transform{
+			translation -4.25 -0.595 3.76
+			children Shape{
+				geometry Box{
+					size 0.26 2.15 0.15
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		Transform{
+			translation -4.25 0.59 4.085
+			children Shape{
+				geometry Box{
+					size 0.26 0.22 1.5
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+
+	]
+}
+Transform {
+	translation	6.73 4.145 -7.462502
+	children [
+		Inline {url "Salon2_1.wrl"}
+			#atrascolumnas (horzontales superiores)
+		Transform {
+			translation	0 1.86 -5.07
+			children Shape {
+				geometry Box {
+					size 7.96 0.38 0.35
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		Transform {
+			translation	-1.2 0 -5.07 
+			children Shape {
+				geometry Box {
+					size 5.55 3.34 0.35
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform {
+			translation	2.985 0 -5.07 
+			children Shape {
+				geometry Box {
+					size 2 3.34 0.35
+				}
+				appearance USE colorPared
+			}
+		}
+		#######
+		#parte izquierda atras
+
+		Transform{
+			translation -4.25 -0.595 -1.445
+			children Shape{
+				geometry Box{
+					size  0.26 2.15 2.48
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 0.59 -1.27
+			children Shape{
+				geometry Box{
+					size  0.26 0.22 2.335
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 1.185 -2.525
+			children Shape{
+				geometry Box{
+					size  0.26 0.97 4.63
+				}
+				appearance USE colorPared
+			}
+		}
+			#bordes puerta
+		Transform{
+			translation -4.25 -0.595 -2.76
+			children Shape{
+				geometry Box{
+					size  0.26 2.15 0.15
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		Transform{
+			translation -4.25 0.59 -3.585
+			children Shape{
+				geometry Box{
+					size  0.26 0.22 2.5
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		#parte izquierda (z+)
+		Transform{
+			translation -4.25 -0.595 1.945
+			children Shape{
+				geometry Box{
+					size 0.26 2.15 3.48
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 0.59 1.77
+			children Shape{
+				geometry Box{
+					size 0.26 0.22 3.13
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 1.185 2.525
+			children Shape{
+				geometry Box{
+					size 0.26 0.97 4.63
+				}
+				appearance USE colorPared
+			}
+		}
+			#bordes puerta
+		Transform{
+			translation -4.25 -0.595 3.76
+			children Shape{
+				geometry Box{
+					size 0.26 2.15 0.15
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		Transform{
+			translation -4.25 0.59 4.085
+			children Shape{
+				geometry Box{
+					size 0.26 0.22 1.5
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+
+	]
+}
+#------------------- Tercer Piso --------------------------
+
+Transform {
+	translation	0 6.415 0
+		children Shape {
+			geometry Box {
+				size 4.7 0.41 35.475
+			}
+		appearance Appearance {
+			material Material {}
+		}
+	}		
+}
+	 #salones izquierda
+Transform {
+	translation	-5.43 8.29 -2.4225
+	children [
+		Inline { url "Salon1.wrl"}
+	]
+}
+Transform {
+	translation	-5.43 8.29 -12.5025
+	children [
+		Inline { url "Salon1.wrl"}
+	]
+}
+#salones derecha
+Transform {
+	translation	6.73 8.29 2.6175
+	children [
+		Inline {url "Salon2_1.wrl"}
+		#frente superior
+
+			#frontrales columnas (horzontales superiores)
+		Transform {
+			translation	0 1.86 4.97
+			children Shape {
+				geometry Box {
+					size 7.96 0.38 0.25
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+			#atrascolumnas (horzontales superiores)
+		Transform {
+			translation	0 1.86 -4.96
+			children Shape {
+				geometry Box {
+					size 7.96 0.38 0.25
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		#frente derecha
+
+		Transform {
+			translation	-1.2 0 4.97 
+			children Shape {
+				geometry Box {
+					size 5.55 3.34 0.25
+				}
+				appearance USE colorPared
+			}
+		}
+		#atras
+		Transform {
+			translation	-1.2 0 -4.96 
+			children Shape {
+				geometry Box {
+					size 5.55 3.34 0.25
+				}
+				appearance USE colorPared
+			}
+		}
+		#frente izquierda
+		Transform {
+			translation	2.985 0 4.97 
+			children Shape {
+				geometry Box {
+					size 2 3.34 0.25
+				}
+				appearance USE colorPared
+			}
+		}
+		#atras izquierda
+		Transform {
+			translation	2.985 0 -4.96 
+			children Shape {
+				geometry Box {
+					size 2 3.34 0.25
+				}
+				appearance USE colorPared
+			}
+		}
+
+		#parte izquierda adelante
+
+		Transform {
+			translation	-4.25 0 2.52
+			children Shape {
+				geometry Box {
+					size 0.26 3.34 4.63 
+				}
+				appearance USE colorPared
+			}
+		}
+		#parte izquierda atras
+		Transform {
+			translation	-4.25 0 -0.28
+			children Shape {
+				geometry Box {
+					size 0.26 3.34 0.15
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		Transform {
+			translation	-4.25 0 -1.09
+			children Shape {
+				geometry Box {
+					size 0.26 3.34 1.47
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform {
+			translation	-4.25 1.15 -2.975
+			children Shape {
+				geometry Box {
+					size 0.26 1.04 2.3
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform {
+			translation	-4.25 0 -4.405
+			children Shape {
+				geometry Box {
+					size 0.26 3.34 0.56
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform {
+			translation	-4.25 0 -4.76
+			children Shape {
+				geometry Box {
+					size 0.26 3.34 0.15
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		#parte izquierda atras puerta
+	   Transform {
+			translation	-4.25 -0.52 -1.9
+			children Shape {
+				geometry Box {
+					size 0.26 2.3 0.15
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		} 
+		Transform {
+			translation	-4.25 -0.52 -4.05
+			children Shape {
+				geometry Box {
+					size 0.26 2.3 0.15
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		Transform {
+			translation	-4.25 0.555 -2.975
+			children Shape {
+				geometry Box {
+					size 0.26 0.15 2.3
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	6.73 8.29 -7.462502
+	children [
+		Inline {url "Salon2_1.wrl"}
+			#atrascolumnas (horzontales superiores)
+		Transform {
+			translation	0 1.86 -5.07
+			children Shape {
+				geometry Box {
+					size 7.96 0.38 0.35
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		Transform {
+			translation	-1.2 0 -5.07 
+			children Shape {
+				geometry Box {
+					size 5.55 3.34 0.35
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform {
+			translation	2.985 0 -5.07 
+			children Shape {
+				geometry Box {
+					size 2 3.34 0.35
+				}
+				appearance USE colorPared
+			}
+		}
+		#parte izquierda adelante
+
+		Transform {
+			translation	-4.25 0 2.52
+			children Shape {
+				geometry Box {
+					size 0.26 3.34 4.63 
+				}
+				appearance USE colorPared
+			}
+		}
+		#parte izquierda atras
+		Transform {
+			translation	-4.25 0 -0.28
+			children Shape {
+				geometry Box {
+					size 0.26 3.34 0.15
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		Transform {
+			translation	-4.25 0 -1.09
+			children Shape {
+				geometry Box {
+					size 0.26 3.34 1.47
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform {
+			translation	-4.25 1.15 -2.975
+			children Shape {
+				geometry Box {
+					size 0.26 1.04 2.3
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform {
+			translation	-4.25 0 -4.405
+			children Shape {
+				geometry Box {
+					size 0.26 3.34 0.56
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform {
+			translation	-4.25 0 -4.76
+			children Shape {
+				geometry Box {
+					size 0.26 3.34 0.15
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		#parte izquierda atras puerta
+	   Transform {
+			translation	-4.25 -0.52 -1.9
+			children Shape {
+				geometry Box {
+					size 0.26 2.3 0.15
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		} 
+		Transform {
+			translation	-4.25 -0.52 -4.05
+			children Shape {
+				geometry Box {
+					size 0.26 2.3 0.15
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		Transform {
+			translation	-4.25 0.555 -2.975
+			children Shape {
+				geometry Box {
+					size 0.26 0.15 2.3
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		#lado derecha frente (z+)
+
+
+
+	]
+}
+	# lab 3 y CECO    --------------------------------------
+Transform{
+	translation 2.98 8.29 12.6975
+	children[
+		Inline {url "Lab3_CECO.wrl"}
+	]
+}
+
+
+#techo
+
+Transform {
+	translation	0 10.56 0
+		children Shape {
+			geometry Box {
+				size 4.7 0.41 35.475
+			}
+		appearance Appearance {
+			material Material {}
+		}
+	}		
+}
+
+#PISOS (y) 
+#  -1.875 , 2.27 , 6.415, 10.56
+# centros de cada piso(y) 0, 4.145, 8.29
+Transform {
+	translation	3 -1.6 -16.2
+	rotation 0 1 0 4.71		
+	children [
+		Inline {url	"EscalerasJunto.wrl"}
+	]
+}
+
+#----------porton--------
+Transform {
+	translation	0 -1.875 17.6375
+	children [
+		Inline { url "porton.wrl"}
+	]
+}
+
+
+Transform {
+	translation	0 -1.875 -17.6375
+	children [
+		Inline { url "porton.wrl"}
+	]
+}
+Transform {
+	translation	-2.1 0 7.6
+	children [					 
+		Shape {
+		geometry Box {
+			size 0.41 4.16 0.41
+		}
+		appearance Appearance {
+			material Material {}
+		}
+	}
+]
+}
+Transform {
+	translation	-2.1 0 12.6
+	children [					 
+		Shape {
+		geometry Box {
+			size 0.41 4.16 0.41
+		}
+		appearance Appearance {
+			material Material {}
+		}
+	}
+]
+}

@@ -1,0 +1,535 @@
+#VRML V2.0 utf8
+#Mesa principal#
+#marco izquierdo
+
+PROTO carpeta [
+
+
+]
+
+{
+	Group {
+		children [
+	Transform {	
+		translation	0 7.85 0
+		children Shape {
+				geometry Box {
+					size 0.2 0.25 4.6
+				}
+				appearance Appearance {
+					material Material { diffuseColor  0 .5 .2  }
+				}
+			}
+		
+	}
+	#marco derecho
+	Transform {	 
+		translation	5.2 7.85 0
+		children Shape {
+				geometry Box {
+					size 0.2 0.25 4.6
+				}
+				appearance Appearance {
+					material Material { diffuseColor  0 .5 .2  }
+				}
+			}
+		
+	}
+	#marco de fondo
+	Transform {	 
+		translation	2.6 7.85 2.2
+		children Shape {
+				geometry Box {
+					size 5.2 0.25 0.2
+				}
+				appearance Appearance {
+					material Material { diffuseColor  0 .5 .2  }
+				}
+			}
+		
+	}
+	#marco delantero
+	Transform {	 
+		translation	2.6 7.85 -2.2
+		children Shape {
+				geometry Box {
+					size 5.2 0.25 0.2
+				}
+				appearance Appearance {
+					material Material { diffuseColor  0 .5 .2  }
+				}
+			}
+		
+	}
+	#mesa
+	Transform {	 
+		translation	2.6 7.85 0
+		children Shape {
+				geometry Box {
+					size 5 0.25 4.2
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 1 0  }
+				}
+			}
+		
+	}
+
+	#mesa de abajo
+
+	Transform {	 #centro
+		translation	2.6 6.85 0
+		children Shape {
+				geometry Box {
+					size 3.6 0.25 2.5
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 1 0  }
+				}
+			}
+		
+	}
+	#tubo de la mesa de abajo
+	Transform {	 
+		translation	2.6 6.6 0
+		children Shape {
+				geometry Box {
+					size 5.1 0.25 0.2
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+
+	#patas
+	#frente p1
+	Transform {	 
+		translation	0.2 7.55 1.12
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.25
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#p2
+	Transform {	 
+		translation	0.2 3.725 0.13
+		children Shape {
+				geometry Box {
+					size 0.3 7.5 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }			   
+				}
+			}
+		
+	}
+	#fondo p1
+	Transform {	 
+		translation	0.2 7.55 -1.12
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.25
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#p2
+	Transform {	 
+		translation	0.2 3.725 -0.13
+		children Shape {
+				geometry Box {
+					size 0.3 7.5 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }			   
+				}
+			}
+		
+	}
+
+	#Patas de abajo"
+	#frente
+	Transform {	 
+		translation	0.2 0 1.12
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.25
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#fondo
+	Transform {	 
+		translation	0.2 0 -1.12
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.25
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+
+	#Lado izquierdo patas#
+	#frente p1
+	Transform {	 
+		translation	0.2 7.55 1.12
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.25
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#p2
+	Transform {	 
+		translation	0.2 3.725 0.13
+		children Shape {
+				geometry Box {
+					size 0.3 7.5 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }			   
+				}
+			}
+		
+	}
+	#fondo p1
+	Transform {	 
+		translation	0.2 7.55 -1.12
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.25
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#p2
+	Transform {	 
+		translation	0.2 3.725 -0.13
+		children Shape {
+				geometry Box {
+					size 0.3 7.5 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }			   
+				}
+			}
+		
+	}
+
+	#Abajo
+	#adelante
+	Transform {	 
+		translation	0.2 0 1.12
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.25
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#atras
+	Transform {	 
+		translation	0.2 0 -1.12
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.25
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+
+	#Lado derecho patas #
+	#frente p1
+	Transform {	 
+		translation	5 7.55 1.12
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.25
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#p2
+	Transform {	 
+		translation	5 3.725 0.13
+		children Shape {
+				geometry Box {
+					size 0.3 7.5 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }			   
+				}
+			}
+		
+	}
+	#fondo p1
+	Transform {	 
+		translation	5 7.55 -1.12
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.25
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#p2
+	Transform {	 
+		translation	5 3.725 -0.13
+		children Shape {
+				geometry Box {
+					size 0.3 7.5 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }			   
+				}
+			}
+		
+	}
+	#patas de abajo derecha
+	#frente
+	Transform {	 
+		translation	5 0 1.12
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.25
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#fondo
+	Transform {	 
+		translation	5 0 -1.12
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.25
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+
+	#Silla#
+	#espaldar
+	Transform {	 
+		translation	2.6 6.9 6.46
+		children Shape {
+				geometry Box {
+					size 4.8 1.2 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 1 0  }
+				}
+			}
+		
+	}
+	#asiento
+	Transform {	 
+		translation	2.6 3.18 5.2
+		children Shape {
+				geometry Box {
+					size 4.6 0.1 2.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 1 0  }
+				}
+			}
+		
+	}
+	#Tubos del asiento#
+	#Lado izquierdo
+	#pata fondo
+	Transform {	 
+		translation	0.2 1.5 4
+		children Shape {
+				geometry Box {
+					size 0.3 3.2 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#tubo piso
+	Transform {	 
+		translation	0.2 0 4.5
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 4.5
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#Tubo unión espaldar/piso
+	Transform {	 
+		translation	0.2 3.8 6.8
+		children Shape {
+				geometry Box {
+					size 0.3 7.9 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#tubo soporte asiento izquierda
+	Transform {	 
+		translation	0.2 3 5.3
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.8
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+
+	#Lado derecho"
+
+	#pata fondo
+	Transform {	 
+		translation	5 1.5 4
+		children Shape {
+				geometry Box {
+					size 0.3 3.2 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#tubo piso
+	Transform {	 
+		translation	5 0 4.5
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 4.5
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#Tubo unión espaldar/piso
+	Transform {	 
+		translation	5 3.8 6.8
+		children Shape {
+				geometry Box {
+					size 0.3 7.9 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#tubo soporte asiento izquierda
+	Transform {	 
+		translation	5 3 5.3
+		children Shape {
+				geometry Box {
+					size 0.3 0.3 2.8
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#Tubo sobre espaldar
+	Transform {	 
+		translation	2.6 7.9 6.8
+		children Shape {
+				geometry Box {
+					size  5 0.3 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#uniones traseras (altura asiento)
+	Transform {	 
+		translation	2.6 3 6.8
+		children Shape {
+				geometry Box {
+					size  4.6 0.3 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	#uniones traseras (altura piso)
+	Transform {	 
+		translation	2.6 0 6.8
+		children Shape {
+				geometry Box {
+					size  4.6 0.3 0.3
+				}
+				appearance Appearance {
+					material Material { diffuseColor  1 0 0  }
+				}
+			}
+		
+	}
+	]
+	}
+}
+
+carpeta	{}
+Transform {
+	translation	0,0,0
+	children carpeta {}
+}
+
