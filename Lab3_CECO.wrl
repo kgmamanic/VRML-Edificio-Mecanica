@@ -119,5 +119,33 @@ Transform{
 		geometry Box{
 			size 0.3 4.16 1.63 
 		}
+		appearance USE colorPared
+	}
+}
+Transform{
+	translation -5.53 -0.86 1.705
+	children Shape{
+		geometry Box{
+			size 0.3 1.62 3
+		}
+		appearance USE colorPared
+	}
+}
+Transform{
+	translation -5.53 0 -4.02
+	children Shape{
+		geometry Box{
+			size 0.3 4.16 1.63 
+		}
+		appearance USE colorPared
+	}
+}
+Transform{
+	translation -5.53 -0.86 -1.705
+	children Shape{
+		geometry Box{
+			size 0.3 1.62 3
+		}
+		appearance USE colorPared
 	}
 }
