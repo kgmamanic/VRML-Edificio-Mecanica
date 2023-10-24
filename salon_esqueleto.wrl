@@ -8,7 +8,7 @@ DEF	colorPared Appearance{
 }
 #Esqueleto salon normal
 PROTO Columna[				   #334
-	field SFVec3f dimension 0.41 4.16 0.41
+	field SFVec3f dimension 0.41 4.13 0.41
 ]{
 	Transform {
 		children [
@@ -103,18 +103,18 @@ Group {
 				children Columna {dimension 6.33 0.15 0.25}
 			}
 			#techo 
-			Transform {
-				translation	0 2.065 0
-				children Shape {
-					geometry Box {
-						size 6.37 0.03 10.49
-					}
-					appearance Appearance {
-						material Material {}
-					}
-				}
+			#Transform {
+			#	translation	0 2.065 0
+			#	children Shape {
+			#		geometry Box {
+			#			size 6.37 0.03 10.49
+			#		}
+			#		appearance Appearance {
+			#			material Material {}
+			#		}
+			#	}
 			
-			}
+			#}
 			#piso
 			Transform {
 				translation	0 -1.875 0

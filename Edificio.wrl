@@ -46,7 +46,7 @@ Transform {
 
 #-------------------Segundo Piso --------------------------
 Transform {
-	translation	0 2.27 0
+	translation	0 2.255 0
 		children Shape {
 			geometry Box {
 				size 4.7 0.41 35.475
@@ -58,13 +58,13 @@ Transform {
 }
  #salones izquierda
 Transform {
-	translation	-5.43 4.145 -2.4225
+	translation	-5.43 4.13 -2.4225
 	children [
 		Inline { url "Salon1.wrl"}
 	]
 }
 Transform {
-	translation	-5.43 4.145 -12.5025
+	translation	-5.43 4.13 -12.5025
 	children [
 		Inline { url "Salon1.wrl"}
 	]
@@ -72,13 +72,13 @@ Transform {
 
 #salones derecha
 Transform {
-	translation	5.53 4.145 12.6975
+	translation	5.53 4.13 12.6975
 	children [
 		Inline {url "salon_esqueleto.wrl"}
 	]
 }
 Transform {
-	translation	6.73 4.145 2.6175
+	translation	6.73 4.13 2.6175
 	children [
 		Inline {url "Salon2_1.wrl"}
 			#frontrales columnas (horzontales superiores)
@@ -256,7 +256,7 @@ Transform {
 	]
 }
 Transform {
-	translation	6.73 4.145 -7.462502
+	translation	6.73 4.13 -7.462502
 	children [
 		Inline {url "Salon2_1.wrl"}
 			#atrascolumnas (horzontales superiores)
@@ -399,7 +399,7 @@ Transform {
 #------------------- Tercer Piso --------------------------
 
 Transform {
-	translation	0 6.415 0
+	translation	0 6.385 0
 		children Shape {
 			geometry Box {
 				size 4.7 0.41 35.475
@@ -411,20 +411,20 @@ Transform {
 }
 	 #salones izquierda
 Transform {
-	translation	-5.43 8.29 -2.4225
+	translation	-5.43 8.26 -2.4225
 	children [
 		Inline { url "Salon1.wrl"}
 	]
 }
 Transform {
-	translation	-5.43 8.29 -12.5025
+	translation	-5.43 8.26 -12.5025
 	children [
 		Inline { url "Salon1.wrl"}
 	]
 }
 #salones derecha
 Transform {
-	translation	6.73 8.29 2.6175
+	translation	6.73 8.26 2.6175
 	children [
 		Inline {url "Salon2_1.wrl"}
 		#frente superior
@@ -593,7 +593,7 @@ Transform {
 	]
 }
 Transform {
-	translation	6.73 8.29 -7.462502
+	translation	6.73 8.26 -7.462502
 	children [
 		Inline {url "Salon2_1.wrl"}
 			#atrascolumnas (horzontales superiores)
@@ -729,7 +729,7 @@ Transform {
 }
 	# lab 3 y CECO    --------------------------------------
 Transform{
-	translation 2.98 8.29 12.6975
+	translation 2.98 8.26 12.6975
 	children[
 		Inline {url "Lab3_CECO.wrl"}
 	]
@@ -739,7 +739,7 @@ Transform{
 #techo
 
 Transform {
-	translation	0 10.56 0
+	translation	0 10.515 0
 		children Shape {
 			geometry Box {
 				size 4.7 0.41 35.475
@@ -751,8 +751,8 @@ Transform {
 }
 
 #PISOS (y) 
-#  -1.875 , 2.27 , 6.415, 10.56
-# centros de cada piso(y) 0, 4.145, 8.29
+#  -1.875 , 2.255 , 6.385, 10.515
+# centros de cada piso(y) 0, 4.13, 8.26
 Transform {
 	translation	3 -1.6 -16.2
 	rotation 0 1 0 4.71		
