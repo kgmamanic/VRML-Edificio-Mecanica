@@ -31,141 +31,152 @@ PROTO Columna[				   #334
 	 # pared derecha e izquierda 3.05 -3.05 x + -
 	# adelante y atraes 5.04 -5.04	z + -
 Group {
-		children [
-			Transform {
-				translation	-2.98 0 0
-				children Columna {}
-			}
-			Transform {
-				translation	-2.98 0 5.04
-				children Columna {}
-			}
-			Transform {
-				translation	-2.98 0 -5.04
-				children Columna {}
-			}
+	children [
+		Transform {
+			translation	-2.98 0 0
+			children Columna {}
+		}
+		Transform {
+			translation	-2.98 0 5.04
+			children Columna {}
+		}
+		Transform {
+			translation	-2.98 0 -5.04
+			children Columna {}
+		}
 
-			Transform {
-				translation	2.98 0 0
-				children Columna {}
-			}
-			Transform {
-				translation	2.98 0 5.04
-				children Columna {}
-			}
-			Transform {
-				translation	2.98 0 -5.04
-				children Columna {}
-			}
+		Transform {
+			translation	2.98 0 0
+			children Columna {}
+		}
+		Transform {
+			translation	2.98 0 5.04
+			children Columna {}
+		}
+		Transform {
+			translation	2.98 0 -5.04
+			children Columna {}
+		}
 
-			Transform {
-				translation	0 0 -5.11
-				children Columna {dimension 0.25 3.34 0.25}
-			}
-			Transform {
-				translation	0 0 5.11
-				children Columna {dimension 0.25 3.34 0.25}
-			}
-			#superior  x
-			Transform {
-				translation	0 1.86 0
-				children Columna {dimension 6.33 0.38 0.41}
-			}
-			Transform {
-				translation	0 1.86 5.11
-				children Columna {dimension 6.33 0.38 0.25}
-			}
-			Transform {
-				translation	0 1.86 -5.11
-				children Columna {dimension 6.33 0.38 0.25}
-			}
-			#superior
-			Transform {
-				translation	3.05 1.86 0
-				children Columna {dimension 0.25 0.38 10.49}
-				
-			}
-			Transform {
-				translation	-3.05 1.86 0
-				children Columna {dimension 0.25 0.38 10.49}
-			}
-			#inferior
-			Transform {
-				translation	-3.05 -1.595 0
-				children Columna {dimension 0.25 0.15 10.49}
-			}
-			Transform {
-				translation	0 -1.595 -5.11
-				children Columna {dimension 6.33 0.15 0.25}
-			}
-			Transform {
-				translation	0 -1.595 5.11
-				children Columna {dimension 6.33 0.15 0.25}
-			}
-			#techo 
-			#Transform {
-			#	translation	0 2.065 0
-			#	children Shape {
-			#		geometry Box {
-			#			size 6.37 0.03 10.49
-			#		}
-			#		appearance Appearance {
-			#			material Material {}
-			#		}
-			#	}
+		Transform {
+			translation	0 0 -5.11
+			children Columna {dimension 0.25 3.34 0.25}
+		}
+		Transform {
+			translation	0 0 5.11
+			children Columna {dimension 0.25 3.34 0.25}
+		}
+		#superior  x
+		Transform {
+			translation	0 1.86 0
+			children Columna {dimension 6.33 0.38 0.41}
+		}
+		Transform {
+			translation	0 1.86 5.11
+			children Columna {dimension 6.33 0.38 0.25}
+		}
+		Transform {
+			translation	0 1.86 -5.11
+			children Columna {dimension 6.33 0.38 0.25}
+		}
+		#superior
+		Transform {
+			translation	3.05 1.86 0
+			children Columna {dimension 0.25 0.38 10.49}
 			
-			#}
-			#piso
-			Transform {
-				translation	0 -1.875 0
-				children Shape {
-					geometry Box {
-						size 6.37 0.41 10.49
-					}
-					appearance Appearance {
-						material Material {}
-					}
+		}
+		Transform {
+			translation	-3.05 1.86 0
+			children Columna {dimension 0.25 0.38 10.49}
+		}
+		#inferior
+		Transform {
+			translation	-3.05 -1.595 0
+			children Columna {dimension 0.25 0.15 10.49}
+		}
+		Transform {
+			translation	0 -1.595 -5.11
+			children Columna {dimension 6.33 0.15 0.25}
+		}
+		Transform {
+			translation	0 -1.595 5.11
+			children Columna {dimension 6.33 0.15 0.25}
+		}
+		#techo 
+		#Transform {
+		#	translation	0 2.065 0
+		#	children Shape {
+		#		geometry Box {
+		#			size 6.37 0.03 10.49
+		#		}
+		#		appearance Appearance {
+		#			material Material {}
+		#		}
+		#	}
+		
+		#}
+		#piso
+		Transform {
+			translation	0 -1.875 0
+			children Shape {
+				geometry Box {
+					size 6.37 0.41 10.49
 				}
-			
+				appearance Appearance {
+					material Material {}
+				}
 			}
-			#delante y trasera # 5.04 delante y -5.04 trasera
-			Transform {
-				translation	-1.45 0.075 5.11
-				children Shape {
-					geometry Box {
-						size 2.65 3.19 0.25	  #
-					}
-					appearance USE colorPared
-				}	
+		
+		}
+		#techo
+		Transform {
+			translation	0 2.255 0
+			children Shape {
+				geometry Box {
+					size 6.37 0.41 10.49
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}		
+		}
+		#delante y trasera # 5.04 delante y -5.04 trasera
+		Transform {
+			translation	-1.45 0.075 5.11
+			children Shape {
+				geometry Box {
+					size 2.65 3.19 0.25	  #
+				}
+				appearance USE colorPared
 			}	
-			Transform {
-				translation	-1.45 0.075 -5.11
-				children Shape {
-					geometry Box {
-						size 2.65 3.19 0.25	  #
-					}
-					appearance USE colorPared
-				}	
-			}  
-			Transform {
-				translation	1.45 0.075 -5.11
-				children Shape {
-					geometry Box {
-						size 2.65 3.19 0.25	  #
-					}
-					appearance USE colorPared
-				}	
-			}  
-			Transform {
-				translation	1.45 0.075 5.11
-				children Shape {
-					geometry Box {
-						size 2.65 3.19 0.25	  #
-					}
-					appearance USE colorPared
-				}	
-			}
+		}	
+		Transform {
+			translation	-1.45 0.075 -5.11
+			children Shape {
+				geometry Box {
+					size 2.65 3.19 0.25	  #
+				}
+				appearance USE colorPared
+			}	
+		}  
+		Transform {
+			translation	1.45 0.075 -5.11
+			children Shape {
+				geometry Box {
+					size 2.65 3.19 0.25	  #
+				}
+				appearance USE colorPared
+			}	
+		}  
+		Transform {
+			translation	1.45 0.075 5.11
+			children Shape {
+				geometry Box {
+					size 2.65 3.19 0.25	  #
+				}
+				appearance USE colorPared
+			}	
+		}
 
-
-		]
-	}
+	]
+}

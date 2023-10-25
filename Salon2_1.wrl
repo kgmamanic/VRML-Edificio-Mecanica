@@ -50,6 +50,18 @@ PROTO Salon21[]
 				}
 			
 			}
+			#techo
+			Transform {
+				translation	0 2.255 0
+				children Shape {
+					geometry Box {
+						size 8.78 0.41 10.49
+					}
+					appearance Appearance {
+						material Material {}
+					}
+				}		
+			}
 			Transform {
 				translation	4.185 0 0
 				children Columna {}

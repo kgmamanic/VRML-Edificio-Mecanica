@@ -1,0 +1,518 @@
+#VRML V2.0 utf8
+DEF	colorPared Appearance{
+	material Material {
+		diffuseColor 0.59 0.27 0.08
+	}
+}
+#-------------------Segundo Piso --------------------------
+Transform {
+	translation	0 -1.875 0
+		children Shape {
+			geometry Box {
+				size 4.7 0.41 35.475
+			}
+		appearance Appearance {
+			material Material {}
+		}
+	}		
+}
+ #salones izquierda
+Transform {
+	translation	-5.43 0 -2.4225
+	children [
+		Inline { url "Salon1.wrl"}
+	]
+}
+Transform {
+	translation	-5.43 0 -12.5025
+	children [
+		Inline { url "Salon1.wrl"}
+	]
+}
+
+#salones derecha
+Transform {
+	translation	5.53 0 12.6975
+	children [
+		Inline {url "salon_esqueleto.wrl"}
+	]
+}
+Transform {
+	translation	6.73 0 2.6175
+	children [
+		Inline {url "Salon2_1.wrl"}
+			#frontrales columnas (horzontales superiores)
+		Transform {
+			translation	0 1.86 4.97
+			children Shape {
+				geometry Box {
+					size 7.96 0.38 0.25
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+			#atrascolumnas (horzontales superiores)
+		Transform {
+			translation	0 1.86 -4.96
+			children Shape {
+				geometry Box {
+					size 7.96 0.38 0.25
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		#frente derecha
+
+		Transform {
+			translation	-1.2 0 4.97 
+			children Shape {
+				geometry Box {
+					size 5.55 3.34 0.25
+				}
+				appearance USE colorPared
+			}
+		}
+		#atras
+		Transform {
+			translation	-1.2 0 -4.96 
+			children Shape {
+				geometry Box {
+					size 5.55 3.34 0.25
+				}
+				appearance USE colorPared
+			}
+		}
+		#frente izquierda
+		Transform {
+			translation	2.985 0 4.97 
+			children Shape {
+				geometry Box {
+					size 2 3.34 0.25
+				}
+				appearance USE colorPared
+			}
+		}
+		#atras izquierda
+		Transform {
+			translation	2.985 0 -4.96 
+			children Shape {
+				geometry Box {
+					size 2 3.34 0.25
+				}
+				appearance USE colorPared
+			}
+		}
+
+
+		#######
+		#parte izquierda atras
+
+		Transform{
+			translation -4.25 -0.595 -1.445
+			children Shape{
+				geometry Box{
+					size  0.26 2.15 2.48
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 0.59 -1.27
+			children Shape{
+				geometry Box{
+					size  0.26 0.22 2.335
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 1.185 -2.525
+			children Shape{
+				geometry Box{
+					size  0.26 0.97 4.63
+				}
+				appearance USE colorPared
+			}
+		}
+			#bordes puerta
+		Transform{
+			translation -4.25 -0.595 -2.76
+			children Shape{
+				geometry Box{
+					size  0.26 2.15 0.15
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		Transform{
+			translation -4.25 0.59 -3.585
+			children Shape{
+				geometry Box{
+					size  0.26 0.22 2.5
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		#parte izquierda (z+)
+		Transform{
+			translation -4.25 -0.595 1.945
+			children Shape{
+				geometry Box{
+					size 0.26 2.15 3.48
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 0.59 1.77
+			children Shape{
+				geometry Box{
+					size 0.26 0.22 3.13
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 1.185 2.525
+			children Shape{
+				geometry Box{
+					size 0.26 0.97 4.63
+				}
+				appearance USE colorPared
+			}
+		}
+			#bordes puerta
+		Transform{
+			translation -4.25 -0.595 3.76
+			children Shape{
+				geometry Box{
+					size 0.26 2.15 0.15
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		Transform{
+			translation -4.25 0.59 4.085
+			children Shape{
+				geometry Box{
+					size 0.26 0.22 1.5
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+
+	]
+}
+Transform {
+	translation	6.73 0 -7.462502
+	children [
+		Inline {url "Salon2_1.wrl"}
+			#atrascolumnas (horzontales superiores)
+		Transform {
+			translation	0 1.86 -5.07
+			children Shape {
+				geometry Box {
+					size 7.96 0.38 0.35
+				}
+				appearance Appearance {
+					material Material {}
+				}
+			}
+		}
+		Transform {
+			translation	-1.2 0 -5.07 
+			children Shape {
+				geometry Box {
+					size 5.55 3.34 0.35
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform {
+			translation	2.985 0 -5.07 
+			children Shape {
+				geometry Box {
+					size 2 3.34 0.35
+				}
+				appearance USE colorPared
+			}
+		}
+		#######
+		#parte izquierda atras
+
+		Transform{
+			translation -4.25 -0.595 -1.445
+			children Shape{
+				geometry Box{
+					size  0.26 2.15 2.48
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 0.59 -1.27
+			children Shape{
+				geometry Box{
+					size  0.26 0.22 2.335
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 1.185 -2.525
+			children Shape{
+				geometry Box{
+					size  0.26 0.97 4.63
+				}
+				appearance USE colorPared
+			}
+		}
+			#bordes puerta
+		Transform{
+			translation -4.25 -0.595 -2.76
+			children Shape{
+				geometry Box{
+					size  0.26 2.15 0.15
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		Transform{
+			translation -4.25 0.59 -3.585
+			children Shape{
+				geometry Box{
+					size  0.26 0.22 2.5
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		#parte izquierda (z+)
+		Transform{
+			translation -4.25 -0.595 1.945
+			children Shape{
+				geometry Box{
+					size 0.26 2.15 3.48
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 0.59 1.77
+			children Shape{
+				geometry Box{
+					size 0.26 0.22 3.13
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation -4.25 1.185 2.525
+			children Shape{
+				geometry Box{
+					size 0.26 0.97 4.63
+				}
+				appearance USE colorPared
+			}
+		}
+			#bordes puerta
+		Transform{
+			translation -4.25 -0.595 3.76
+			children Shape{
+				geometry Box{
+					size 0.26 2.15 0.15
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		Transform{
+			translation -4.25 0.59 4.085
+			children Shape{
+				geometry Box{
+					size 0.26 0.22 1.5
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+
+	]
+}
+#Columnas segundo piso
+Transform {
+	translation	-2.5 0.03 7.6
+	children [					 
+		Shape {
+		geometry Box {
+			size 0.41 4.16 0.41
+		}
+		appearance Appearance {
+			material Material {}
+		}
+	}
+]
+}
+Transform {
+	translation	-2.5 0.03 12.6
+	children [					 
+		Shape {
+		geometry Box {
+			size 0.41 4.16 0.41
+		}
+		appearance Appearance {
+			material Material {}
+		}
+	}
+]
+}
+Transform {
+	translation	-2.5 0.03 17.5
+	children [					 
+		Shape {
+		geometry Box {
+			size 0.41 4.16 0.41
+		}
+		appearance Appearance {
+			material Material {}
+		}
+	}
+]
+}
+
+#separación para la biblioteca 
+Transform {
+	translation	0 1.37 2.5
+	children [					 
+		Shape {
+		geometry Box {
+			size 4.6 1.5 0.03
+		}
+		appearance Appearance {
+			material Material {
+			diffuseColor 1 0.5 0}
+		}
+	}
+]
+}
+Transform {
+	translation	1.5 -0.63 2.5
+	children [					 
+		Shape {
+		geometry Box {
+			size 1.6 2.5 0.03
+		}
+		appearance Appearance {
+			material Material {
+				diffuseColor 1 0.5 0 }
+		}
+	}
+]
+}
+Transform {
+	translation	-1.5 -0.63 2.5
+	children [					 
+		Shape {
+		geometry Box {
+			size 1.6 2.5 0.03
+		}
+		appearance Appearance {
+			material Material {
+			diffuseColor 1 0.5 0}
+		}
+	}
+]
+}
+#Muros del segundo piso
+#1
+Transform {
+	translation	-2.5 -1.13 5
+	children Shape {
+		geometry Box {
+			size 0.25 1.5 5
+		}
+		appearance USE colorPared
+	}
+}
+Transform {
+	translation	-2.5 0.87 5
+	children Shape {
+		geometry Box {
+			size 0.25 2.5 1.5
+		}
+		appearance USE colorPared
+	}
+}
+#2
+Transform {
+	translation	-2.5 -1.13 10
+	children Shape {
+		geometry Box {
+			size 0.25 1.5 5
+		}
+		appearance USE colorPared
+	}
+}
+Transform {
+	translation	-2.5 0.87 8.5
+	children Shape {
+		geometry Box {
+			size 0.25 2.5 1.5
+		}
+		appearance USE colorPared
+	}
+}
+#3
+Transform {
+	translation	-2.5 -1.13 15
+	children Shape {
+		geometry Box {
+			size 0.25 1.5 5
+		}
+		appearance USE colorPared
+	}
+}
+Transform {
+	translation	-2.5 0.87 16.6
+	children Shape {
+		geometry Box {
+			size 0.25 2.5 1.5
+		}
+		appearance USE colorPared
+	}
+}
+#muro de frente
+Transform {
+	translation	0 -0.63 17.5
+	children Shape {			
+		geometry Box {
+			size 4.65 2.5 0.5
+		}
+		appearance USE colorPared
+	}
+}
+
+# Se cambio el y = 4.13 a y = 0 (como centro)
+# 4.13 -> 0
+# 4.16 -> 0.03
+# 5.5 -> 1.37
+# 3.5 -> -0.63
+# 3 -> -1.13
+# 5 -> 0.87
