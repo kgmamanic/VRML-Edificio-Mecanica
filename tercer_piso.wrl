@@ -9,37 +9,14 @@ Transform {
 	translation	0 -1.875 0
 		children Shape {
 			geometry Box {
-				size 4.7 0.41 35.475
+				size 5.51 0.41 37.495 #35.475
 			}
 		appearance Appearance {
 			material Material {}
 		}
 	}		
 }
-#sobra de piso (cerca al baño)
-Transform {
-	translation	-2.405 -1.875 5.1375
-		children Shape {
-			geometry Box {
-				size 0.6 0.41 4.63
-			}
-		appearance Appearance {
-			material Material {}
-		}
-	}		
-}
-#sobra de piso (cerca al baño) (techo)
-Transform {
-	translation	-2.405 2.255 5.1375
-		children Shape {
-			geometry Box {
-				size 0.6 0.41 4.63
-			}
-		appearance Appearance {
-			material Material {}
-		}
-	}		
-}
+
 	 #salones izquierda
 Transform {
 	translation	-5.43 0 -2.4225
@@ -363,5 +340,13 @@ Transform{
 	translation 2.98 0 12.6975
 	children[
 		Inline {url "Lab3_CECO.wrl"}
+	]
+}
+
+# Atras ventanas
+Transform{
+	translation 0 0 -18.2475
+	children[
+		
 	]
 }

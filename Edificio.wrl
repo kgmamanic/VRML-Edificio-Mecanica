@@ -34,7 +34,7 @@ Transform {
 	translation	0 10.515 0
 		children Shape {
 			geometry Box {
-				size 4.7 0.41 35.475
+				size 5.51 0.41 37.495 #4.7 0.41 35.475
 			}
 		appearance Appearance {
 			material Material {}
