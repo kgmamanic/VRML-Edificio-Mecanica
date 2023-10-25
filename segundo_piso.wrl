@@ -5,11 +5,24 @@ DEF	colorPared Appearance{
 	}
 }
 #-------------------Segundo Piso --------------------------
+#piso
 Transform {
 	translation	0 -1.875 0
 		children Shape {
 			geometry Box {
 				size 4.7 0.41 35.475
+			}
+		appearance Appearance {
+			material Material {}
+		}
+	}		
+}
+#sobra de piso (cerca al baño)
+Transform {
+	translation	-2.405 -1.875 5.1375
+		children Shape {
+			geometry Box {
+				size 0.6 0.41 4.63
 			}
 		appearance Appearance {
 			material Material {}
