@@ -1,0 +1,95 @@
+#VRML V2.0 utf8
+PROTO Columna[				   #334
+	field SFVec3f dimension 0.41 4.16 0.41
+]{
+	Transform {
+		children [
+			Shape {
+				geometry Box {
+					size IS	dimension
+				    
+				}
+				appearance	Appearance {
+					material Material {
+						
+					}
+				}
+			}
+		]
+	}
+}
+
+#techo 
+
+Transform {
+	translation	0 2.255 0
+		children Shape {
+			geometry Box {
+				size 11.47 0.41 10.49
+			}
+		appearance Appearance {
+			material Material {}
+		}
+	}		
+}
+
+#piso
+Transform {
+	translation	0 -1.875 0
+	children Shape {
+		geometry Box {
+			size 11.47 0.41 10.49
+		}
+		appearance Appearance {
+			material Material {}
+		}
+	}
+
+}
+
+
+Transform{
+	translation -0.43 0 0
+	children Columna{}
+}
+Transform{
+	translation -5.53 0 0
+	children Columna{}
+}
+Transform{
+	translation 5.53 0 0
+	children Columna{}
+}
+
+Transform{
+	translation -0.43 0 5.04
+	children Columna{}
+}
+Transform{
+	translation -0.43 0 -5.04
+	children Columna{}
+}
+Transform{
+	translation -5.53 0 5.04
+	children Columna{}
+}
+Transform{
+	translation -5.53 0 -5.04
+	children Columna{}
+}
+Transform{
+	translation 5.53 0 5.04
+	children Columna{}
+}
+Transform{
+	translation 5.53 0 -5.04
+	children Columna{}
+}
+Transform{
+	translation -5.53 1.86 0
+	children Columna {dimension 0.41 0.38 10.49}
+}
+Transform{
+	translation 5.53 1.86 0
+	children Columna {dimension 0.41 0.38 10.49}
+}

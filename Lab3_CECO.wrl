@@ -4,112 +4,18 @@ DEF	colorPared Appearance{
 		diffuseColor 0.59 0.27 0.08
 	}
 }
-	
-PROTO Columna[				   #334
-	field SFVec3f dimension 0.41 4.16 0.41
-]{
-	Transform {
-		children [
-			Shape {
-				geometry Box {
-					size IS	dimension
-				    
-				}
-				appearance	Appearance {
-					material Material {
-						
-					}
-				}
-			}
-		]
-	}
-}
-#techo 
-
+# Esqueleto CECO
 Transform {
-	translation	0 2.27 0
-		children Shape {
-			geometry Box {
-				size 11.47 0.41 10.49
-			}
-		appearance Appearance {
-			material Material {}
-		}
-	}		
+	children [
+		Inline	{url "esqueleto_ceco.wrl"}
+	]
 }
-Transform {
-	translation	0 2.065 0
-	children Shape {
-		geometry Box {
-			size 11.47 0.03 10.49
-		}
-		appearance Appearance{
-			material Material{}
-		}
-	}
-}
-#piso
-Transform {
-	translation	0 -1.875 0
-	children Shape {
-		geometry Box {
-			size 11.47 0.41 10.49
-		}
-		appearance Appearance {
-			material Material {}
-		}
-	}
-
-}
-
-Transform{
-	translation -0.43 0 0
-	children Columna{}
-}
-Transform{
-	translation -5.53 0 0
-	children Columna{}
-}
-Transform{
-	translation 5.53 0 0
-	children Columna{}
-}
-
-Transform{
-	translation -0.43 0 5.04
-	children Columna{}
-}
-Transform{
-	translation -0.43 0 -5.04
-	children Columna{}
-}
-Transform{
-	translation -5.53 0 5.04
-	children Columna{}
-}
-Transform{
-	translation -5.53 0 -5.04
-	children Columna{}
-}
-Transform{
-	translation 5.53 0 5.04
-	children Columna{}
-}
-Transform{
-	translation 5.53 0 -5.04
-	children Columna{}
-}
-Transform{
-	translation -5.53 1.86 0
-	children Columna {dimension 0.41 0.38 10.49}
-}
-
 #separador ceco y lab 3
 Transform{
-	translation -2.16 0 0.6
+	translation -2.16 0.19 0.6
 	children Shape{
 		geometry Box{
-			size 0.05 4.16 10.98
+			size 0.05 3.72 10.98
 		}
 		appearance Appearance{
 			material Material{
