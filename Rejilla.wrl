@@ -1,0 +1,20 @@
+PROTO[
+
+]
+
+{
+    Group{
+		children [
+			Transform {
+				translation 0.5 1.18 0
+				children Shape {
+					geometry Box {size 1 1.8 0.05}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+        ]
+    }
+}
