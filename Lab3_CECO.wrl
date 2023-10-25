@@ -1,5 +1,10 @@
 #VRML V2.0 utf8
-
+DEF	colorPared Appearance{
+	material Material {
+		diffuseColor 0.59 0.27 0.08
+	}
+}
+	
 PROTO Columna[				   #334
 	field SFVec3f dimension 0.41 4.16 0.41
 ]{
