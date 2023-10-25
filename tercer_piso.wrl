@@ -296,7 +296,7 @@ Transform {
 			}
 		}
 		#parte izquierda atras puerta
-	   Transform {
+	   	Transform {
 			translation	-4.25 -0.52 -1.9
 			children Shape {
 				geometry Box {
@@ -330,8 +330,33 @@ Transform {
 			}
 		}
 		#lado derecha frente (z+)
-
-
+		Transform{
+			translation 4.255 -0.86 -2.52
+			children Shape{
+				geometry Box{
+					size 0.25 1.62 4.63
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation 4.255 -0.86 2.52
+			children Shape{
+				geometry Box{
+					size 0.25 1.62 4.63
+				}
+				appearance USE colorPared
+			}
+		}
+		Transform{
+			translation 4.255 0.81 2.97
+			children Shape{
+				geometry Box{
+					size 0.25 1.72 2.53
+				}
+				appearance USE colorPared
+			}
+		}
 
 	]
 }

@@ -4,6 +4,26 @@ DEF	colorPared Appearance{
 		diffuseColor 0.59 0.27 0.08
 	}
 }
+PROTO Columna[				   #334
+	field SFVec3f dimension 0.41 4.16 0.41
+]{
+	Transform {
+		children [
+			Shape {
+				geometry Box {
+					size IS	dimension
+				    
+				}
+				appearance	Appearance {
+					material Material {
+						
+					}
+				}
+			}
+		]
+	}
+}
+
 # Esqueleto CECO
 Transform {
 	children [
@@ -59,4 +79,28 @@ Transform{
 		}
 		appearance USE colorPared
 	}
+}
+#parte baja pared que taba a ceco y lab 3
+Transform{
+	translation -3.23 -0.595 -5.04
+	children Shape{
+		geometry Box{
+			size 2.19 2.15 0.3
+		}
+		appearance USE colorPared
+	}
+}
+
+Transform{
+	translation -2.98 1.075 -5.04
+	children Shape{
+		geometry Box{
+			size 4.69 1.19 0.3
+		}
+		appearance USE colorPared
+	}
+}
+Transform{
+	translation -2.98 1.86 -5.04
+	children Columna {dimension 5.51 0.38 0.41}
 }
