@@ -4,6 +4,25 @@ DEF	colorPared Appearance{
 		diffuseColor 0.59 0.27 0.08
 	}
 }
+PROTO Columna[				   #334
+	field SFVec3f dimension 0.41 4.13 0.41
+]{
+	Transform {
+		children [
+			Shape {
+				geometry Box {
+					size IS	dimension
+				    
+				}
+				appearance	Appearance {
+					material Material {
+						
+					}
+				}
+			}
+		]
+	}
+}
 #-------------------Segundo Piso --------------------------
 #piso
 Transform {
@@ -781,6 +800,7 @@ Transform {
 	]
 }
 #SALON ATRAS
+#FILA 1
 Transform {
 	rotation 0 1 0 3.14 #(mira hacia atras)
 	translation	-3.1 -1.65 -10
@@ -932,7 +952,602 @@ Transform {
 		Inline { url "carpeta.wrl"}
 	]
 }
+Transform{
+	translation	-5.4 0 -7.68
+	children [
+		Inline {url "pizarra.wrl"}
+	]
+}
+#SALONES DE LA DERECHA
+#SALON LADO DE LA ESCALERA
+#FILA 4
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	5.0 -1.65 -11
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	6.1 -1.65 -11
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
 
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	7.2 -1.65 -11
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	8.3 -1.65 -11
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	9.4 -1.65 -11
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	10.5 -1.65 -11
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+#FILA 3
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	5.0 -1.65 -9
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	6.1 -1.65 -9
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	7.2 -1.65 -9
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	8.3 -1.65 -9
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	9.4 -1.65 -9
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	10.5 -1.65 -9
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+#FILA 2
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	5.0 -1.65 -7
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	6.1 -1.65 -7
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	7.2 -1.65 -7
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	8.3 -1.65 -7
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	9.4 -1.65 -7
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	10.5 -1.65 -7
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+#FILA 1
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	5.0 -1.65 -5
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	6.1 -1.65 -5
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	7.2 -1.65 -5
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	8.3 -1.65 -5
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	9.4 -1.65 -5
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	10.5 -1.65 -5
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+	#PIZARRA
+Transform{
+	translation	7.8 0 -2.7
+	children [
+		Inline {url "pizarra.wrl"}
+	]
+}
+#SALON CORTADO POR LA BIBLIOTECA
+#FILA 4
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	5.0 -1.65 -1
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	6.1 -1.65 -1
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	7.2 -1.65 -1
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	8.3 -1.65 -1
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	9.4 -1.65 -1
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	10.5 -1.65 -1
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+#FILA 3
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	5.0 -1.65 1
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	6.1 -1.65 1
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	7.2 -1.65 1
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	8.3 -1.65 1
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	9.4 -1.65 1
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	10.5 -1.65 1
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+#FILA 2
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	5.0 -1.65 3
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	6.1 -1.65 3
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	7.2 -1.65 3
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	8.3 -1.65 3
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	9.4 -1.65 3
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	10.5 -1.65 3
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+#FILA 1
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	5.0 -1.65 5
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	6.1 -1.65 5
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	7.2 -1.65 5
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	8.3 -1.65 5
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	9.4 -1.65 5
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	10.5 -1.65 5
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+	#PIZARRA
+Transform{
+	translation	7.8 0 7.4
+	children [
+		Inline {url "pizarra.wrl"}
+	]
+}
+#puerta clausurada de la bilbioteca
+Transform {
+	translation	2.4 0.4 5.2
+	children [					 
+		Shape {
+		geometry Box {
+			size 0.2 4.16 5
+		}
+		appearance Appearance {
+			material Material {
+			diffuseColor 1 0 0}
+		}
+	}
+]
+}
+#ventana
+#Atras Frente
+Transform{
+	translation 0 0 -17.6
+
+	children[
+		#arriba
+		Transform{
+			translation 0 1.685 0 # arriba lado
+			children Columna {dimension 5.51 0.79 0.1}
+		}
+		#abajo
+		Transform{
+			translation 0 -1.18 0
+			children Shape{
+				geometry Box{
+					size 5.51 0.98 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		#horizontales
+		Transform{
+			translation 0 0.26 0
+			children Shape{
+				geometry Box{
+					size 5.51 0.02 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 0 0.79 0
+			children Shape{
+				geometry Box{
+					size 5.51 0.02 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 0 1.32 0
+			children Shape{
+				geometry Box{
+					size 5.51 0.02 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		#verticales
+		Transform{
+			translation 2.755 0 0 
+			children Shape{
+				geometry Box{
+					size 0.02 3.34 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 2.14278 0 0 
+			children Shape{
+				geometry Box{
+					size 0.02 3.34 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 1.53056 0 0 
+			children Shape{
+				geometry Box{
+					size 0.02 3.34 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 0.91834 0 0 
+			children Shape{
+				geometry Box{
+					size 0.02 3.34 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 0.30612 0 0 
+			children Shape{
+				geometry Box{
+					size 0.02 3.34 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation -2.755 0 0 
+			children Shape{
+				geometry Box{
+					size 0.02 3.34 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation -2.14278 0 0 
+			children Shape{
+				geometry Box{
+					size 0.02 3.34 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation -1.53056 0 0 
+			children Shape{
+				geometry Box{
+					size 0.02 3.34 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation -0.91834 0 0 
+			children Shape{
+				geometry Box{
+					size 0.02 3.34 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation -0.30612 0 0 
+			children Shape{
+				geometry Box{
+					size 0.02 3.34 0.1
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+	]
+}
 # Se cambio el y = 4.13 a y = 0 (como centro)
 # 4.13 -> 0
 # 4.16 -> 0.03

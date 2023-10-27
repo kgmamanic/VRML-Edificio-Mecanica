@@ -290,10 +290,78 @@ Transform {
 			}
 			appearance Appearance {
 				material Material {
-					diffuseColor 1 0 0
+					diffuseColor 0.89 0.15 0.21
 				}
 			}
 		}
 	]
 }
+#CARPETAS
+#FILA 1
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	3 1.982 -7.55 
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	1.5 1.982 -7.55 
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	0 1.982 -7.55 
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+#FILA 2
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	3 1.982 -8.95 
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	1.5 1.982 -8.95 
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	0 1.982 -8.95 
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+#FILA 3
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	3 1.982 -10.35 
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	1.5 1.982 -10.35 
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+Transform {
+	rotation 0 1 0 3.14 #(mira hacia atras)
+	translation	0 1.982 -10.35 
+	children [
+		Inline { url "carpeta.wrl"}
+	]
+}
+
 

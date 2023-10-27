@@ -357,11 +357,11 @@ Transform {
 	]
 }
 Transform {
-	translation	-1.295 5 -11.2
+	translation	-1.295 5 -11.25
 	children [
 		Shape {
 			geometry Box {
-				size .30 2.8 1
+				size .30 2.8 0.5
 			}
 			appearance Appearance {
 				material Material {
@@ -372,11 +372,71 @@ Transform {
 	]
 }
 Transform {
-	translation	-1.295 5 -8.4
+	translation	-1.295 5 -9.8
 	children [
 		Shape {
 			geometry Box {
-				size .30 2.8 1
+				size .30 2.8 0.4
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.59 0.27 0.08
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	-1.295 5 -8.35
+	children [
+		Shape {
+			geometry Box {
+				size .30 2.8 0.5
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.59 0.27 0.08
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	3.7 5 -11.25
+	children [
+		Shape {
+			geometry Box {
+				size .30 2.8 0.5
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.59 0.27 0.08
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	3.7 5 -9.8
+	children [
+		Shape {
+			geometry Box {
+				size .30 2.8 0.4
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.59 0.27 0.08
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	3.7 5 -8.35
+	children [
+		Shape {
+			geometry Box {
+				size .30 2.8 0.5
 			}
 			appearance Appearance {
 				material Material {
