@@ -570,6 +570,7 @@ Transform {
 		appearance USE colorPared
 	}
 }
+
 # Se cambio el y = 4.13 a y = 0 (como centro)
 # 4.13 -> 0
 # 4.16 -> 0.03

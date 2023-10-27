@@ -11,10 +11,10 @@ PROTO carpeta [
 	Group {
 		children [
 	Transform {	
-		translation	0 7.85 0
+		translation	0 0.785 0
 		children Shape {
 				geometry Box {
-					size 0.2 0.25 4.6
+					size 0.02 0.025 0.46
 				}
 				appearance Appearance {
 					material Material { diffuseColor  0 .5 .2  }
@@ -24,10 +24,10 @@ PROTO carpeta [
 	}
 	#marco derecho
 	Transform {	 
-		translation	5.2 7.85 0
+		translation	0.52 0.785 0
 		children Shape {
 				geometry Box {
-					size 0.2 0.25 4.6
+					size 0.02 0.025 0.46
 				}
 				appearance Appearance {
 					material Material { diffuseColor  0 .5 .2  }
@@ -37,10 +37,10 @@ PROTO carpeta [
 	}
 	#marco de fondo
 	Transform {	 
-		translation	2.6 7.85 2.2
+		translation	0.26 0.785 0.22
 		children Shape {
 				geometry Box {
-					size 5.2 0.25 0.2
+					size 0.52 0.025 0.02
 				}
 				appearance Appearance {
 					material Material { diffuseColor  0 .5 .2  }
@@ -50,10 +50,10 @@ PROTO carpeta [
 	}
 	#marco delantero
 	Transform {	 
-		translation	2.6 7.85 -2.2
+		translation	0.26 0.785 -0.22
 		children Shape {
 				geometry Box {
-					size 5.2 0.25 0.2
+					size 0.52 0.025 0.02
 				}
 				appearance Appearance {
 					material Material { diffuseColor  0 .5 .2  }
@@ -63,10 +63,10 @@ PROTO carpeta [
 	}
 	#mesa
 	Transform {	 
-		translation	2.6 7.85 0
+		translation	0.26 0.785 0
 		children Shape {
 				geometry Box {
-					size 5 0.25 4.2
+					size 0.5 0.025 0.42
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 1 0  }
@@ -78,10 +78,10 @@ PROTO carpeta [
 	#mesa de abajo
 
 	Transform {	 #centro
-		translation	2.6 6.85 0
+		translation	0.26 0.685 0
 		children Shape {
 				geometry Box {
-					size 3.6 0.25 2.5
+					size 0.36 0.025 0.25
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 1 0  }
@@ -91,10 +91,10 @@ PROTO carpeta [
 	}
 	#tubo de la mesa de abajo
 	Transform {	 
-		translation	2.6 6.6 0
+		translation	0.26 0.66 0
 		children Shape {
 				geometry Box {
-					size 5.1 0.25 0.2
+					size 0.51 0.025 0.02
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -106,10 +106,10 @@ PROTO carpeta [
 	#patas
 	#frente p1
 	Transform {	 
-		translation	0.2 7.55 1.12
+		translation	0.02 0.755 0.112
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.25
+					size 0.03 0.03 0.225
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -119,10 +119,10 @@ PROTO carpeta [
 	}
 	#p2
 	Transform {	 
-		translation	0.2 3.725 0.13
+		translation	0.02 0.3725 0.013
 		children Shape {
 				geometry Box {
-					size 0.3 7.5 0.3
+					size 0.03 0.75 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }			   
@@ -132,10 +132,10 @@ PROTO carpeta [
 	}
 	#fondo p1
 	Transform {	 
-		translation	0.2 7.55 -1.12
+		translation	0.02 0.755 -0.112
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.25
+					size 0.03 0.03 0.225
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -145,10 +145,10 @@ PROTO carpeta [
 	}
 	#p2
 	Transform {	 
-		translation	0.2 3.725 -0.13
+		translation	0.02 0.3725 -0.013
 		children Shape {
 				geometry Box {
-					size 0.3 7.5 0.3
+					size 0.03 0.75 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }			   
@@ -160,10 +160,10 @@ PROTO carpeta [
 	#Patas de abajo"
 	#frente
 	Transform {	 
-		translation	0.2 0 1.12
+		translation	0.02 0 0.112
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.25
+					size 0.03 0.03 0.225
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -173,10 +173,10 @@ PROTO carpeta [
 	}
 	#fondo
 	Transform {	 
-		translation	0.2 0 -1.12
+		translation	0.02 0 -0.112
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.25
+					size 0.03 0.03 0.225
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -188,10 +188,10 @@ PROTO carpeta [
 	#Lado izquierdo patas#
 	#frente p1
 	Transform {	 
-		translation	0.2 7.55 1.12
+		translation	0.02 0.755 0.112
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.25
+					size 0.03 0.03 0.225
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -201,10 +201,10 @@ PROTO carpeta [
 	}
 	#p2
 	Transform {	 
-		translation	0.2 3.725 0.13
+		translation	0.02 0.3725 0.013
 		children Shape {
 				geometry Box {
-					size 0.3 7.5 0.3
+					size 0.03 0.75 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }			   
@@ -214,10 +214,10 @@ PROTO carpeta [
 	}
 	#fondo p1
 	Transform {	 
-		translation	0.2 7.55 -1.12
+		translation	0.02 0.755 -0.112
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.25
+					size 0.03 0.03 0.225
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -227,10 +227,10 @@ PROTO carpeta [
 	}
 	#p2
 	Transform {	 
-		translation	0.2 3.725 -0.13
+		translation	0.02 0.3725 -0.013
 		children Shape {
 				geometry Box {
-					size 0.3 7.5 0.3
+					size 0.03 0.75 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }			   
@@ -242,10 +242,10 @@ PROTO carpeta [
 	#Abajo
 	#adelante
 	Transform {	 
-		translation	0.2 0 1.12
+		translation	0.02 0 0.112
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.25
+					size 0.03 0.03 0.225
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -255,10 +255,10 @@ PROTO carpeta [
 	}
 	#atras
 	Transform {	 
-		translation	0.2 0 -1.12
+		translation	0.02 0 -0.112
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.25
+					size 0.03 0.03 0.225
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -270,10 +270,10 @@ PROTO carpeta [
 	#Lado derecho patas #
 	#frente p1
 	Transform {	 
-		translation	5 7.55 1.12
+		translation	0.5 0.755 0.112
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.25
+					size 0.03 0.03 0.225
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -283,10 +283,10 @@ PROTO carpeta [
 	}
 	#p2
 	Transform {	 
-		translation	5 3.725 0.13
+		translation	0.5 0.3725 0.013
 		children Shape {
 				geometry Box {
-					size 0.3 7.5 0.3
+					size 0.03 0.75 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }			   
@@ -296,10 +296,10 @@ PROTO carpeta [
 	}
 	#fondo p1
 	Transform {	 
-		translation	5 7.55 -1.12
+		translation	0.5 0.755 -0.112
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.25
+					size 0.03 0.03 0.225
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -309,10 +309,10 @@ PROTO carpeta [
 	}
 	#p2
 	Transform {	 
-		translation	5 3.725 -0.13
+		translation	0.5 0.3725 -0.013
 		children Shape {
 				geometry Box {
-					size 0.3 7.5 0.3
+					size 0.03 0.75 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }			   
@@ -323,10 +323,10 @@ PROTO carpeta [
 	#patas de abajo derecha
 	#frente
 	Transform {	 
-		translation	5 0 1.12
+		translation	0.5 0 0.112
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.25
+					size 0.03 0.03 0.225
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -336,10 +336,10 @@ PROTO carpeta [
 	}
 	#fondo
 	Transform {	 
-		translation	5 0 -1.12
+		translation	0.5 0 -0.112
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.25
+					size 0.03 0.03 0.225
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -351,10 +351,10 @@ PROTO carpeta [
 	#Silla#
 	#espaldar
 	Transform {	 
-		translation	2.6 6.9 6.46
+		translation	0.26 0.69 0.646
 		children Shape {
 				geometry Box {
-					size 4.8 1.2 0.3
+					size 0.48 0.12 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 1 0  }
@@ -364,10 +364,10 @@ PROTO carpeta [
 	}
 	#asiento
 	Transform {	 
-		translation	2.6 3.18 5.2
+		translation	0.26 0.318 0.52
 		children Shape {
 				geometry Box {
-					size 4.6 0.1 2.3
+					size 0.46 0.01 0.23
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 1 0  }
@@ -379,10 +379,10 @@ PROTO carpeta [
 	#Lado izquierdo
 	#pata fondo
 	Transform {	 
-		translation	0.2 1.5 4
+		translation	0.02 0.15 0.4
 		children Shape {
 				geometry Box {
-					size 0.3 3.2 0.3
+					size 0.03 0.32 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -392,10 +392,10 @@ PROTO carpeta [
 	}
 	#tubo piso
 	Transform {	 
-		translation	0.2 0 4.5
+		translation	0.02 0 0.45
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 4.5
+					size 0.03 0.03 0.45
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -405,10 +405,10 @@ PROTO carpeta [
 	}
 	#Tubo unión espaldar/piso
 	Transform {	 
-		translation	0.2 3.8 6.8
+		translation	0.02 0.38 0.68
 		children Shape {
 				geometry Box {
-					size 0.3 7.9 0.3
+					size 0.03 0.79 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -418,10 +418,10 @@ PROTO carpeta [
 	}
 	#tubo soporte asiento izquierda
 	Transform {	 
-		translation	0.2 3 5.3
+		translation	0.02 0.3 0.53
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.8
+					size 0.03 0.03 0.28
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -434,10 +434,10 @@ PROTO carpeta [
 
 	#pata fondo
 	Transform {	 
-		translation	5 1.5 4
+		translation	0.5 0.15 0.4
 		children Shape {
 				geometry Box {
-					size 0.3 3.2 0.3
+					size 0.03 0.32 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -447,10 +447,10 @@ PROTO carpeta [
 	}
 	#tubo piso
 	Transform {	 
-		translation	5 0 4.5
+		translation	0.5 0 0.45
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 4.5
+					size 0.03 0.03 0.45
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -460,10 +460,10 @@ PROTO carpeta [
 	}
 	#Tubo unión espaldar/piso
 	Transform {	 
-		translation	5 3.8 6.8
+		translation	0.5 0.38 0.68
 		children Shape {
 				geometry Box {
-					size 0.3 7.9 0.3
+					size 0.03 0.79 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -473,10 +473,10 @@ PROTO carpeta [
 	}
 	#tubo soporte asiento izquierda
 	Transform {	 
-		translation	5 3 5.3
+		translation	0.5 0.3 0.53
 		children Shape {
 				geometry Box {
-					size 0.3 0.3 2.8
+					size 0.03 0.03 0.28
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -486,10 +486,10 @@ PROTO carpeta [
 	}
 	#Tubo sobre espaldar
 	Transform {	 
-		translation	2.6 7.9 6.8
+		translation	0.26 0.79 0.68
 		children Shape {
 				geometry Box {
-					size  5 0.3 0.3
+					size  0.5 0.03 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -499,10 +499,10 @@ PROTO carpeta [
 	}
 	#uniones traseras (altura asiento)
 	Transform {	 
-		translation	2.6 3 6.8
+		translation	0.26 0.3 0.68
 		children Shape {
 				geometry Box {
-					size  4.6 0.3 0.3
+					size  0.46 0.03 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
@@ -512,10 +512,10 @@ PROTO carpeta [
 	}
 	#uniones traseras (altura piso)
 	Transform {	 
-		translation	2.6 0 6.8
+		translation	0.26 0 0.68
 		children Shape {
 				geometry Box {
-					size  4.6 0.3 0.3
+					size  0.46 0.03 0.03
 				}
 				appearance Appearance {
 					material Material { diffuseColor  1 0 0  }
