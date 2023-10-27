@@ -52,4 +52,18 @@ Transform {
 		Inline {url	"EscalerasJunto.wrl"}
 	]
 }
-
+#piso espacio
+Transform {
+	translation	0 -2 0
+		children Shape {
+			geometry Box {
+				size 50 0.41 50
+			}
+		appearance Appearance {
+			material Material {}
+			texture ImageTexture {
+				url "pasto.jpg"
+			}
+		}
+	}		
+}
