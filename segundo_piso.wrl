@@ -961,13 +961,7 @@ Transform{
 #SALONES DE LA DERECHA
 #SALON LADO DE LA ESCALERA
 #FILA 4
-Transform {
-	rotation 0 1 0 3.14 #(mira hacia atras)
-	translation	5.0 -1.65 -11
-	children [
-		Inline { url "carpeta.wrl"}
-	]
-}
+
 Transform {
 	rotation 0 1 0 3.14 #(mira hacia atras)
 	translation	6.1 -1.65 -11
@@ -1006,13 +1000,7 @@ Transform {
 	]
 }
 #FILA 3
-Transform {
-	rotation 0 1 0 3.14 #(mira hacia atras)
-	translation	5.0 -1.65 -9
-	children [
-		Inline { url "carpeta.wrl"}
-	]
-}
+
 Transform {
 	rotation 0 1 0 3.14 #(mira hacia atras)
 	translation	6.1 -1.65 -9
@@ -1051,13 +1039,7 @@ Transform {
 	]
 }
 #FILA 2
-Transform {
-	rotation 0 1 0 3.14 #(mira hacia atras)
-	translation	5.0 -1.65 -7
-	children [
-		Inline { url "carpeta.wrl"}
-	]
-}
+
 Transform {
 	rotation 0 1 0 3.14 #(mira hacia atras)
 	translation	6.1 -1.65 -7
@@ -1096,13 +1078,7 @@ Transform {
 	]
 }
 #FILA 1
-Transform {
-	rotation 0 1 0 3.14 #(mira hacia atras)
-	translation	5.0 -1.65 -5
-	children [
-		Inline { url "carpeta.wrl"}
-	]
-}
+
 Transform {
 	rotation 0 1 0 3.14 #(mira hacia atras)
 	translation	6.1 -1.65 -5
@@ -1145,6 +1121,144 @@ Transform{
 	translation	7.8 0 -2.7
 	children [
 		Inline {url "pizarra.wrl"}
+	]
+}
+#mesa
+Transform {
+	translation 3.6 -0.92 -7
+	children [
+		Shape {
+			geometry Box {
+				size 1 0.08 3.2
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 1 1 1
+				}
+			}
+		}
+	]
+}
+#patas de la mesa
+Transform {
+	translation	3.1 -1.2 -5.4
+	children [
+		Shape {
+			geometry Box {
+				size 0.05 0.6 0.05
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.5 0.2 0
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	4.1 -1.2 -5.4
+	children [
+		Shape {
+			geometry Box {
+				size 0.05 0.6 0.05
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.5 0.2 0
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	3.1 -1.2 -8.6
+	children [
+		Shape {
+			geometry Box {
+				size 0.05 0.6 0.05
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.5 0.2 0
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	4.1 -1.2 -8.6
+	children [
+		Shape {
+			geometry Box {
+				size 0.05 0.6 0.05
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.5 0.2 0
+				}
+			}
+		}
+	]
+}
+#Bordes
+Transform {
+	translation	3.1 -0.92 -7
+	children [
+		Shape {
+			geometry Box {
+				size 0.08 0.08 3.2
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.5 0.2 0
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	4.1 -0.92 -7
+	children [
+		Shape {
+			geometry Box {
+				size 0.08 0.08 3.2
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.5 0.2 0
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	3.6 -0.92 -5.4
+	children [
+		Shape {
+			geometry Box {
+				size 1 0.08 0.08
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.5 0.2 0
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	3.6 -0.92 -8.6
+	children [
+		Shape {
+			geometry Box {
+				size 1 0.08 0.08
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.5 0.2 0
+				}
+			}
+		}
 	]
 }
 #SALON CORTADO POR LA BIBLIOTECA
