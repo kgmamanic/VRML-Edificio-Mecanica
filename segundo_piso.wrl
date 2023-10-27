@@ -570,6 +570,62 @@ Transform {
 		appearance USE colorPared
 	}
 }
+#Espacio para las ventanas (primer salon)
+Transform{
+	translation 10.935 -0.86 -9.96
+	children Shape{
+		geometry Box{
+			size 0.25 1.62 4.63
+		}
+		appearance USE colorPared
+	}
+}
+Transform{
+	translation 10.935 -0.86 -4.96
+	children Shape{
+		geometry Box{
+			size 0.25 1.62 4.63
+		}
+		appearance USE colorPared
+	}
+}
+Transform{
+	translation 10.935 0.81 -4.48
+	children Shape{
+		geometry Box{
+			size 0.25 1.72 2.53
+		}
+		appearance USE colorPared
+	}
+}
+#Espacio para las ventanas (segundo salon)
+Transform{
+	translation 10.935 -0.86 0.13
+	children Shape{
+		geometry Box{
+			size 0.25 1.62 4.63
+		}
+		appearance USE colorPared
+	}
+}
+Transform{
+	translation 10.935 -0.86 5.19
+	children Shape{
+		geometry Box{
+			size 0.25 1.62 4.63
+		}
+		appearance USE colorPared
+	}
+}
+Transform{
+	translation 10.935 0.81 5.48
+	children Shape{
+		geometry Box{
+			size 0.25 1.72 2.53
+		}
+		appearance USE colorPared
+	}
+}
 #CARPETAS
 #SALON ADELANTE
 #FILA 1
