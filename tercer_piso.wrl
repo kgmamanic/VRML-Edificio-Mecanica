@@ -4,6 +4,26 @@ DEF	colorPared Appearance{
 		diffuseColor 0.59 0.27 0.08
 	}
 }
+
+PROTO Columna[				   #334
+	field SFVec3f dimension 0.41 4.13 0.41
+]{
+	Transform {
+		children [
+			Shape {
+				geometry Box {
+					size IS	dimension
+				    
+				}
+				appearance	Appearance {
+					material Material {
+						
+					}
+				}
+			}
+		]
+	}
+}
 #Piso
 Transform {
 	translation	0 -1.875 0
@@ -197,6 +217,701 @@ Transform {
 					material Material {}
 				}
 			}
+		}
+
+		#ventanas de lado (Adelante)
+		#piso y techo
+		Transform{
+			translation 4.88 -1.875 2.515
+			children Shape{
+				geometry Box{
+					size 1 0.41 3.9
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		Transform{
+			translation 4.88 2.255 2.515
+			children Shape{
+				geometry Box{
+					size 1 0.41 3.9
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		#adelante mirando derecha
+		Transform{
+			translation 4.255 1.48 4.585 # arriba lado
+			children Columna {dimension 0.26 0.38 0.5}
+		}
+		Transform{
+			translation 4.255 0.43 4.585
+			children Shape{
+				geometry Box{
+					size 0.09 0.02 0.41
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.255 -0.43 4.585
+			children Shape{
+				geometry Box{
+					size 0.09 0.02 0.41
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.255 -1.48 4.585 # arriba lado
+			children Columna {dimension 0.26 0.38 0.5}
+		}
+		#adelante mirando adelante
+		Transform{
+			translation 4.8175 1.685 4.335 # arriba lado
+			children Columna {dimension 1.125 0.79 0.25}
+		}
+		Transform{
+			translation 4.8175 0.43 4.335
+			children Shape{
+				geometry Box{
+					size 1.125 0.02 0.09
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.8175 -0.43 4.335
+			children Shape{
+				geometry Box{
+					size 1.125 0.02 0.09
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.8175 -1.48 4.335 # arriba lado
+			children Columna {dimension 1.125 0.38 0.25}
+		}
+		#centro 
+		
+		# centro horizontales
+		Transform{
+			translation 5.38 1.685 2.52 # arriba lado
+			children Columna {dimension 0.1 0.79 3.63}
+		}
+		Transform{
+			translation 5.38 0.43 2.52
+			children Shape{
+				geometry Box{
+					size 0.09 0.02 3.63
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 -0.43 2.52
+			children Shape{
+				geometry Box{
+					size 0.09 0.02 3.63
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 -1.48 2.52 # arriba lado
+			children Columna {dimension 0.1 0.79 3.63}
+		}
+		#Centro vertiales
+		Transform{
+			translation 4.8175 0 0.705
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.255 0 0.705
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 0.705
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 1.31
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 1.915
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 2.52
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 3.125
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 3.73
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 4.335
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.8175 0 4.335
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.255 0 4.335
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		#atras mirando atras
+		Transform{
+			translation 4.8175 1.685 0.705 # arriba lado
+			children Columna {dimension 1.125 0.79 0.25}
+		}
+		Transform{
+			translation 4.8175 0.43 0.705
+			children Shape{
+				geometry Box{
+					size 1.125 0.02 0.09
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.8175 -0.43 0.705
+			children Shape{
+				geometry Box{
+					size 1.125 0.02 0.09
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.8175 -1.48 0.705 # arriba lado
+			children Columna {dimension 1.125 0.38 0.25}
+		}
+		#atras mirando derecha
+		Transform{
+			translation 4.255 1.48 0.455 # arriba lado
+			children Columna {dimension 0.26 0.38 0.5}
+		}
+		Transform{
+			translation 4.255 0.43 0.455
+			children Shape{
+				geometry Box{
+					size 0.09 0.02 0.41
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.255 -0.43 0.455
+			children Shape{
+				geometry Box{
+					size 0.09 0.02 0.41
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.255 -1.48 0.455 # arriba lado
+			children Columna {dimension 0.26 0.38 0.5}
+		}
+
+
+
+		####
+		#ventanas de lado (Adelante)
+		#piso y techo
+		Transform{
+			translation 4.88 -1.875 -2.515
+			children Shape{
+				geometry Box{
+					size 1 0.41 3.9
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		Transform{
+			translation 4.88 2.255 -2.515
+			children Shape{
+				geometry Box{
+					size 1 0.41 3.9
+				}
+				appearance Appearance{
+					material Material{}
+				}
+			}
+		}
+		#adelante mirando derecha
+		Transform{
+			translation 4.255 1.48 -4.585 # arriba lado
+			children Columna {dimension 0.26 0.38 0.5}
+		}
+		Transform{
+			translation 4.255 0.43 -4.585
+			children Shape{
+				geometry Box{
+					size 0.09 0.02 0.41
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.255 -0.43 -4.585
+			children Shape{
+				geometry Box{
+					size 0.09 0.02 0.41
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.255 -1.48 -4.585 # arriba lado
+			children Columna {dimension 0.26 0.38 0.5}
+		}
+		#adelante mirando adelante
+		Transform{
+			translation 4.8175 1.685 -4.335 # arriba lado
+			children Columna {dimension 1.125 0.79 0.25}
+		}
+		Transform{
+			translation 4.8175 0.43 -4.335
+			children Shape{
+				geometry Box{
+					size 1.125 0.02 0.09
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.8175 -0.43 -4.335
+			children Shape{
+				geometry Box{
+					size 1.125 0.02 0.09
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.8175 -1.48 -4.335 # arriba lado
+			children Columna {dimension 1.125 0.38 0.25}
+		}
+		#centro 
+		
+		# centro horizontales
+		Transform{
+			translation 5.38 1.685 -2.52 # arriba lado
+			children Columna {dimension 0.1 0.79 3.63}
+		}
+		Transform{
+			translation 5.38 0.43 -2.52
+			children Shape{
+				geometry Box{
+					size 0.09 0.02 3.63
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 -0.43 -2.52
+			children Shape{
+				geometry Box{
+					size 0.09 0.02 3.63
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 -1.48 -2.52 # arriba lado
+			children Columna {dimension 0.1 0.79 3.63}
+		}
+		#Centro vertiales
+		Transform{
+			translation 4.8175 0 -0.705
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.255 0 -0.705
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 -0.705
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 -1.31
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 -1.915
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 -2.52
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 -3.125
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 -3.73
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 5.38 0 -4.335
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.8175 0 -4.335
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.255 0 -4.335
+			children Shape{
+				geometry Box{
+					size 0.09 2.58 0.02
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		#atras mirando atras
+		Transform{
+			translation 4.8175 1.685 -0.705 # arriba lado
+			children Columna {dimension 1.125 0.79 0.25}
+		}
+		Transform{
+			translation 4.8175 0.43 -0.705
+			children Shape{
+				geometry Box{
+					size 1.125 0.02 0.09
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.8175 -0.43 -0.705
+			children Shape{
+				geometry Box{
+					size 1.125 0.02 0.09
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.8175 -1.48 -0.705 # arriba lado
+			children Columna {dimension 1.125 0.38 0.25}
+		}
+		#atras mirando derecha
+		Transform{
+			translation 4.255 1.48 -0.455 # arriba lado
+			children Columna {dimension 0.26 0.38 0.5}
+		}
+		Transform{
+			translation 4.255 0.43 -0.455
+			children Shape{
+				geometry Box{
+					size 0.09 0.02 0.41
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.255 -0.43 -0.455
+			children Shape{
+				geometry Box{
+					size 0.09 0.02 0.41
+				}
+				appearance Appearance{
+					material Material{
+						diffuseColor 0.6 0.4 0
+					}
+				}
+			}
+		}
+		Transform{
+			translation 4.255 -1.48 -0.455 # arriba lado
+			children Columna {dimension 0.26 0.38 0.5}
 		}
 	]
 }
