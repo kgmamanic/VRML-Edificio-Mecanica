@@ -296,6 +296,21 @@ Transform {
 		}
 	]
 }
+Transform {
+		translation	1.22 1.772 -8.55 
+		children [
+			Shape {
+			geometry Box {
+				size 4.6 0.3 6.35
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.59 0.27 0.08
+				}
+			}
+		}
+	]
+}
 #CARPETAS
 #FILA 1
 Transform {
@@ -361,6 +376,22 @@ Transform {
 	translation	0 1.982 -10.35 
 	children [
 		Inline { url "carpeta.wrl"}
+	]
+}
+#pizarra
+Transform {
+	translation	0.3 3.3 -5.8
+	children [
+		Shape {
+			geometry Box {
+				size 2.6 1.2 0.02
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 1 1 1
+				}
+			}
+		}
 	]
 }
 
