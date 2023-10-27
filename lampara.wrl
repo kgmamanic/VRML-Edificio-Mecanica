@@ -7,6 +7,7 @@
 PROTO lampara[
 	field	SFColor	colorTubo 1 1 1
 	field	SFColor	colorPlastico .5 .54 .53
+	field SFVec3f rotation 0 0 1
 ]
 
 
@@ -15,9 +16,10 @@ PROTO lampara[
 		children [
 
 			Transform {
+				rotation IS rotation
 				translation	0 0 0
 				children Shape {
-				geometry Cylinder {height 1200 radius 3.8}
+				geometry Cylinder {height 1.2 radius 0.038}
 				appearance Appearance {
 					material Material {diffuseColor IS colorTubo emissiveColor 5 5 5}
 				}
@@ -26,9 +28,10 @@ PROTO lampara[
 			}
 
 			Transform {
-				translation	11.4 0 0					   #3.8*3						
+				rotation IS rotation
+				translation	0.114 0 0					   #3.8*3						
 				children Shape {
-					geometry Cylinder {height 1200 radius 3.8}
+					geometry Cylinder {height 1.2 radius 0.038}
 					appearance Appearance {
 						material Material {diffuseColor IS colorTubo emissiveColor 5 5 5}
 					}
@@ -37,9 +40,10 @@ PROTO lampara[
 			}
 
 			Transform{
-				translation	5.7 0 -7.6
+				rotation IS rotation
+				translation	0.057 0 -0.076
 				children Shape {
-					geometry Box {size 18 1220 7.6}
+					geometry Box {size 0.18 1.220 0.076}
 					appearance Appearance {
 						material Material {diffuseColor IS colorPlastico }
 					}
@@ -48,9 +52,10 @@ PROTO lampara[
 			}
 
 			Transform{
-				translation	5.7 600 0
+				rotation IS rotation
+				translation	0.057 0.600 0
 				children Shape {
-					geometry Cylinder {height 2.8 radius 9}
+					geometry Cylinder {height 0.028 radius 0.09}
 					appearance Appearance {
 						material Material {diffuseColor IS colorPlastico }
 					}
@@ -59,26 +64,30 @@ PROTO lampara[
 			}
 
 			Transform{
-				translation	5.7 -600 0
+				rotation IS rotation
+				translation	0.057 -0.600 0
 				children Shape {
-					geometry Cylinder {height 2.8 radius 9}
+					geometry Cylinder {height 0.028 radius 0.09}
 					appearance Appearance {
 						material Material {diffuseColor IS colorPlastico }
 					}
 				}
-			
 			}			
 		
 		]
 	}
 }
 
+lampara {}
 
-lampara	{}
-
-Transform {
-	rotation 0 1 0 1.57
-	translation	0 0 0
-
-}
-
+#Transform{
+#	rotation 1 0 0 1.5708
+#	children[
+#		Transform{
+#			rotation 0 0 1 1.5708
+#			children [
+#				Inline {url "lampara.wrl"}
+#			]
+#		}
+#	]
+#}
