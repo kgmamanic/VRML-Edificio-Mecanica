@@ -55,45 +55,29 @@ Transform {
 	]
 }
 #Columnas primer piso
-Transform {
-	translation	-2.5 0 7.6
-	children [					 
-		Shape {
-		geometry Box {
-			size 0.41 4.16 0.41
-		}
+
+Transform{
+	translation 2.98 0 12.6975
+	children[
+		Inline {url "esqueleto_ceco.wrl"}
+	]
+}
+
+#-2.16
+#-2.50
+Transform{
+	translation	-2.55 1.875 5.1375
+		children Shape {
+			geometry Box {
+				size 0.41 0.38 5.245
+			}
 		appearance Appearance {
 			material Material {}
 		}
 	}
-]
 }
-Transform {
-	translation	-2.5 0 12.6
-	children [					 
-		Shape {
-		geometry Box {
-			size 0.41 4.16 0.41
-		}
-		appearance Appearance {
-			material Material {}
-		}
-	}
-]
-}
-Transform {
-	translation	-2.5 0 17.5
-	children [					 
-		Shape {
-		geometry Box {
-			size 0.41 4.16 0.41
-		}
-		appearance Appearance {
-			material Material {}
-		}
-	}
-]
-}
+
+
 #----------porton--------
 Transform {
 	translation	0 -1.875 17.6375
