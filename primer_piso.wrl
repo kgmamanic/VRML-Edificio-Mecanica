@@ -483,7 +483,6 @@ Transform {
 	}
 
 # Carpetas
-
 Transform {
 	rotation 0 1 0 3.14 #(mira hacia atras)
 	translation	-3.1 -1.65 0
@@ -1150,6 +1149,7 @@ Transform {
 		Inline { url "carpeta.wrl"}
 	]
 }
+
 Transform {
 	rotation 0 1 0 3.14 #(mira hacia atras)
 	translation	9.4 -1.65 5
@@ -1157,6 +1157,7 @@ Transform {
 		Inline { url "carpeta.wrl"}
 	]
 }
+
 Transform {
 	rotation 0 1 0 3.14 #(mira hacia atras)
 	translation	10.5 -1.65 5
