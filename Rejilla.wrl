@@ -1,14 +1,381 @@
-PROTO[
+#VRML V2.0 utf8
 
+PROTO Rejilla[
+	field	SFColor	colorFierro 1 1 0
 ]
 
 {
     Group{
 		children [
+
+			#fierro abajo
 			Transform {
-				translation 0.5 1.18 0
+				translation -2.55 1.67 5.1375
 				children Shape {
-					geometry Box {size 1 1.8 0.05}
+					geometry Box {size 0.05 0.15 4.7}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+			
+			#fierro abajo
+			Transform {
+				translation -2.55 -1.67 5.1375
+				children Shape {
+					geometry Box {size 0.05 0.15 4.7}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+
+			#fierro izquierda
+			Transform {
+				translation -2.55 0 2.87875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.05 3.61 0.15}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			#fierro derecha
+			Transform {
+				translation -2.55 0 7.39625
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.05 3.61 0.15}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+
+			#fierro pequeño horizontal 3 fierros separacion de 0.90
+			Transform {
+				translation -2.55 -0.77 5.1375
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.04 0.04 4.7}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+			Transform {
+				translation -2.55 0.13 5.1375
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.04 0.04 4.7}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+			Transform {
+				translation -2.55 1.03 5.1375
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.04 0.04 4.7}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			#fierro pequeño vertical cada 20 cm
+			Transform {
+				translation -2.55 0 3.07875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 3.27875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 3.47875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 3.67875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+			Transform {
+				translation -2.55 0 3.87875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 4.07875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 4.27875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 4.47875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 4.67875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 4.87875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 5.07875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 5.27875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 5.47875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 5.67875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 5.87875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 6.07875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 6.27875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 6.47875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 6.67875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 6.87875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 7.07875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 7.27875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 7.47875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
+					appearance Appearance {
+						material Material {diffuseColor IS colorFierro }
+					}
+				
+				}
+			}
+
+			Transform {
+				translation -2.55 0 7.67875
+				children Shape {
+					#0.15 3.61 0.05
+					geometry Box {size 0.02 3.61 0.02}
 					appearance Appearance {
 						material Material {diffuseColor IS colorFierro }
 					}
@@ -18,3 +385,6 @@ PROTO[
         ]
     }
 }
+
+Rejilla {}
+

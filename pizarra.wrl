@@ -5,6 +5,7 @@ PROTO pizarra
 		field	SFColor	colorBorde 0.5 .2 0
 		field	SFColor	colorPizarra 1 1 1
 	]
+	
 	{
 		Group{
 			children [
